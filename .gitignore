@@ -1,0 +1,13 @@
+*.cache
+*.pyc
+.Bridge*
+._*
+.DS_Store
+.fseventsd
+.TemporaryItems
+.Trashes
+.Spotlight-V100
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+*.org
