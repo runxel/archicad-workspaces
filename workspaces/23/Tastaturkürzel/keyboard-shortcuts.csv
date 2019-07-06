@@ -1,0 +1,219 @@
+Neu...,Command + n
+Öffnen...,Command + o
+Projekt schließen,Command + Shift + w
+Tab Projekt schließen,Command + w
+Sichern,Command + s
+Sichern als...,Command + Shift + s
+Papierformat...,Command + Shift + p
+Drucken...,Command + p
+Beenden,Command + q
+Suchen & aktivieren...,Command + Shift + a
+Gruppierung aussetzen,Option + g
+Autogruppe,Option + Shift + g
+Geschoss-Einstellungen...,Command + 7
+Ein Geschoss höher,Command + 6
+Ein Geschoss tiefer,Command + 5
+Gehe in Geschoss...,Command + 4
+Grundriss,Command + 2
+Photorealistische Darstellung,F10
+Animation...,F11
+Drahtmodell,Command + Shift + F9
+Verdeckte Kanten,Command + F9
+Schattierung,F9
+Umschalter Konstruktionsmethoden,c
+X-Koordinate,x
+X-Koordinate,Shift + x
+Y-Koordinate,y
+Y-Koordinate,Shift + y
+Z-Koordinate,z
+Z-Koordinate,Shift + z
+X-Koordinate fixieren,Option + x
+Y-Koordinate fixieren,Option + y
+Z-Koordinate fixieren,Option + z
+Radius/Abstand sperren,Option + r
+Vorheriges Werkzeug im Werkzeugkasten,PageUp
+Nächstes Werkzeug im Werkzeugkasten,PageDown
+Zoom (Vergrössern),-
+Zoom (Verkleinern),+
+Bildlauf rechts,Right
+Bildlauf links,Left
+Bildlauf unten,Down
+Bildlauf oben,Up
+Nach rechts stoßen (Großer Schritt),Option + Shift + Right
+Nach links stoßen (Großer Schritt),Option + Shift + Left
+Nach unten stoßen (Großer Schritt),Option + Shift + Down
+Nach oben stoßen (Großer Schritt),Option + Shift + Up
+Nach rechts stoßen,Shift + Right
+Nach links stoßen,Shift + Left
+Nach unten stoßen,Shift + Down
+Nach oben stoßen,Shift + Up
+Neu & Wiederherstellen,Command + Option + n
+Bibliothekenmanager...,Command + Shift + b
+Träger,Shift + u
+Objekt,Shift + o
+Lichtquelle,Shift + l
+Dach,Shift + d
+Freifläche,Shift + f
+Höhenbemaßung,Option + Shift + b
+Text,Option + Shift + t
+Raum,Option + Shift + r
+Radius/Abstand,r
+Radius/Abstand,Shift + r
+Winkel,w
+Winkel,Shift + w
+Winkel fixieren,Option + w
+Schraffur,Shift + s
+Linie,l
+Polylinie,Shift + p
+Spline,Option + Shift + s
+Fixpunkt,Option + Shift + f
+Schnitt,a
+Detail,Option + Shift + d
+Kamera,Shift + k
+Objekt öffnen...,Command + Shift + o
+Ausschneiden,Command + x
+Kopieren,Command + c
+Einfügen,Command + v
+Alle Wände aktivieren,Command + a
+Wiederhole den letzten Befehl,Command + b
+Wiederausführen,Command + Shift + z
+Widerrufen,Command + z
+Ebenen (Modelldarstellung)...,Command + l
+Längenänderung,Command + h
+Gruppieren,Command + g
+Gruppe auflösen,Command + u
+Gruppe auflösen,Command + Shift + g
+Raster-Einstellungen...,F6
+Rasterfang,F7
+Konstruktionsraster darstellen,F8
+Standort & Projektionsart...,Command + Option + 3
+Block,Command + Option + F9
+Neu zeichnen,Command + Shift + r
+Zoom (Vergrößern),Command + +
+Zoom (Verkleinern),Command + -
+Verschieben,Command + Shift + 0
+Auf Auswahl zoomen,Command + Shift + +
+Optimieren,Command + 0
+Vollbild an,F12
+Vorheriger Zoom,Command + <
+Nächster Zoom,Command + Shift + <
+Umschalter Orthogonales/Gedrehtes Raster,Shift + g
+Versatz/Mehrfacher Versatz,Shift + v
+Pfeil-Werkzeug/Vorheriges Werkzeug Umschalter,^
+Mit Einzel-Dach beschneiden...,Option + ä
+Mit Einzel-Dach beschneiden...,Command + Option + ä
+Dazuladen...,Option + o
+Neues Objekt...,Command + Option + o
+Verschieben,Command + e
+Drehen,Command + d
+Spiegeln,Command + m
+Kopie verschieben,Command + Shift + e
+Kopie drehen,Command + Shift + d
+Kopie spiegeln,Command + Shift + m
+Vertikal verschieben...,Command + 9
+Multiplizieren...,Command + #
+Größenänderung,Command + Shift + h
+Splitten,Command + ö
+Anpassen,Command + ä
+In 2D-Elemente zerlegen...,Command + Option + z
+Abrunden/Abschrägen...,Command + Option + Shift + v
+Photorealistik-Einstellungen,Command + F10
+Mehrere Kopien drehen,Command + Option + d
+Orbit,F2
+3D Rundgang,F3
+Modelldarstellung erstellen...,Command + Option + y
+Neues Layout...,Option + n
+Neues Masterlayout,Command + Shift + n
+Ausschnitt sichern & auf Layout platzieren,Command + Option + a
+Trimmen,Command + Option + ü
+Axonometrie,Option + 3
+Perspektive,Option + Shift + 3
+Quell-Ausschnitt-Einstellungen bearbeiten...,Command + Shift + q
+Plotten...,Command + Option + Shift + p
+Gehe zum ersten Layout,Command + Up
+Gehe zum letzten Layout,Command + Down
+Gehe zum vorherigen Layout,Option + Left
+Gehe zum nächsten Layout,Option + Right
+Reinzeichnung,Command + y
+Raum beschneiden...,Command + Shift + ä
+Räume aktualisieren...,Command + Option + r
+Favoriten,Command + f
+Hilfslinien,Option + h
+Auswahl/Markierungsrahmen in 3D anzeigen,Shift + 4
+Alles in 3D anzeigen,Shift + 3
+Hilfetexte ausblenden,Command + F1
+Auswahl/Markierungsrahmen in 3D anzeigen,Command + 3
+Alles in 3D anzeigen,Command + Shift + 3
+Transparentpause,Option + t
+Orientierung drehen,"Command + ,"
+Transparentpause mit aktiver Zeichnung wechseln,Option + Shift + w
+Markierungsrahmen,#
+Innenansicht,Shift + i
+Transparentpause aktivieren,Option + Shift + a
+Transparentpause drehen,Option + d
+Auf die Standardposition zurücksetzen,Option + Shift + z
+Splitter anzeigen/verbergen,Command + Option + s
+Schaltet zum nächsten Element der Pet-Palette,.
+Schaltet zum vorherigen Element der Pet-Palette,Shift + .
+IFC Projekt Manager...,Command + Option + i
+Senden & empfangen,Command + Option + Shift + s
+Elemente reservieren...,Command + j
+Drehen,d
+Wand-Grundeinstellung,t
+Bibliothekenmanager...,b
+Ebenen (Modelldarstellung)...,e
+Hotlink platzieren...,Shift + h
+Hotlink-Modul-Manager...,Shift + a
+Externe Zeichnung platzieren...,Option + i
+Projekt-Info...,Command + Shift + i
+Publisher...,Option + p
+In den Vordergrund,1
+Nach vorn,2
+Nach hinten,3
+In den Hintergrund,4
+Spiegeln,s
+Kopie verschieben,i
+Kopie drehen,j
+Kopie spiegeln,k
+Multiplizieren...,m
+Größenänderung,h
+Splitten,g
+Anpassen,f
+Vereinigen,Command + Shift + v
+Aktivierte Elemente ändern...,Shift + t
+Linien-Vereinigung...,Option + l
+Schraffuren-Vereinigung...,Option + s
+Echte Linienstärke,Command + Shift + y
+Hilfslinien-Segment erstellen,Option + ^
+Optimieren,0
+Neu aufbauen,n
+Neu aufbauen & regenerieren,Command + r
+Fanghilfen und -punkte,Option + f
+Darstellung der Bearbeitungsebene,Shift + b
+Alle Ebenen sichtbar,Option + Shift + e
+Ursprünglichen Ausschnitt öffnen,ü
+Zeichnung(en) aktualisieren,Option + a
+Organisator,o
+Grundriss,F5
+Fangpunktvarianten,Option + c
+Parallel/Lotrecht,p
+Maß,q
+Wendestatus ändern,Shift + c
+Nach Transparentpause suchen...,Command + t
+Auswahl- und Elementinformation...,Option + e
+Ebenen-Umschalter,u
+Verschieben,v
+Widerrufen,Command + z
+Wiederausführen,Command + Shift + z
+Letzten Befehl wiederholen,Command + b
+Ausschneiden,Command + x
+Kopieren,Command + c
+Einfügen,Command + v
+Alle Elemente aktivieren,Command + a
+Suchen & Ersetzen...,Command + f
+Such-Auswahl,Command + h
+Erneut ersetzen,Command + t
+Gehe zu Zeile...,Command + l
+Kommentar,Command + m
+Unkommentiert,Command + u
+Erneut suchen,Command + g
