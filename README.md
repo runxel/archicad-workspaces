@@ -8,7 +8,7 @@ Also note: this script needs to be altered if you have another language version 
 
 ---
 
-Also please don't use a full white or black background!...
+Also please don't use a [full white or black background↗](https://www.onland.info/archives/2006/04/background_beige_237_236_202.php)!
 
 ---
 
