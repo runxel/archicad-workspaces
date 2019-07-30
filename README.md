@@ -8,7 +8,7 @@ Also note: You need to have Python 3 installed. This script needs to be altered 
 
 ---
 
-Also please [don't use a full white](https://www.onland.info/archives/2006/04/background_beige_237_236_202.php) or black background!...
+Also please don't use a [full white or black background↗](https://www.onland.info/archives/2006/04/background_beige_237_236_202.php)!
 
 ---
 
