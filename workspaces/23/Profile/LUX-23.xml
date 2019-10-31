@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Profile guid="C7FC54EB-7428-470F-853E-B2C01A3069D8" name="LUX-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Profile/2005/01">
+	<SchemeRef componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" componentTypeName="Anwender Voreinstellungen" guid="B7E7D158-5F8D-4FA5-8937-79C1F12A06CB" name="LUX-23"/>
+	<SchemeRef componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" componentTypeName="Extras" guid="ED2D5904-9D5F-4B61-B442-B37CB1F7DF8D" name="LUX-23"/>
+	<SchemeRef componentType="40C3FF18-F1CE-4430-92B2-F6631BD465D3" componentTypeName="Arbeitsbereich" guid="C3DDB8DA-18FC-4C71-93DC-D1CF154DAEE8" name="LUX-23"/>
+	<SchemeRef componentType="24B978B9-B65D-4405-AF78-3990DCBEB13F" componentTypeName="Büro-Standards" guid="D5D90595-5B99-416D-B4DF-BF915B43864C" name="LUX-23"/>
+	<SchemeRef componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" componentTypeName="Tastaturkürzel" guid="4C7CE489-90DD-41C9-9651-8512C8286905" name="LUX-23"/>
+	<SchemeRef componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" componentTypeName="Befehle" guid="31E34C6F-5C52-4977-9EEA-8A52152F66A8" name="LUX-23"/>
+</Profile>
