@@ -1,5 +1,6 @@
 # [archicad-workspaces](https://github.com/runxel/archicad-workspaces)
-Repository for my Archicad workspaces. Might or might not work for you. :)
+Repository for my Archicad workspaces.  
+_Your milage may vary_ :)
 
 ---
 
