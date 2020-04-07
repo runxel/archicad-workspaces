@@ -4,7 +4,7 @@ Repository for my Archicad workspaces. ![version](https://img.shields.io/badge/c
 _Your milage may vary_ 😉
 
 But while you're here you might want to check out …
-- My collection [Archicad objects](https://github.com/runxel/ArchiCAD-Objects), including their source code; you're free to hack on!
+- My collection of [Archicad objects](https://github.com/runxel/ArchiCAD-Objects), including their source code; you're free to hack on!
 - [GDL for Sublime Text](https://github.com/runxel/GDL-sublime), to make scripting of Archicad GDL objects easier than ever!-
 - My handcrafted custom [Archicad attributes](https://github.com/runxel/archicad-attributes).
 
