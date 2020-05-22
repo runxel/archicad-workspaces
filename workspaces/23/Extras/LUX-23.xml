@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" guid="ED2D5904-9D5F-4B61-B442-B37CB1F7DF8D" name="LUX-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" guid="7C4E7CD7-BA9C-46D5-8C2D-B7F918710AE1" name="Lux-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings Version="2">
 		<InfoBoxPanels>
 			<ToolState Version="1" comment="Pfeil-Werkzeug">
@@ -91,7 +91,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20402</UniqueId>
-					<Visible>0</Visible>
+					<Visible>1</Visible>
 					<Index>9</Index>
 				</PanelState>
 				<PanelState comment="Winkel der geneigten Wand">
@@ -189,7 +189,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20424</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>14</Index>
 				</PanelState>
 				<PanelState comment="Anschlussreihenfolge">
@@ -203,7 +203,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20410</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>21</Index>
 				</PanelState>
 				<PanelState comment="Blockdetails">
@@ -1515,7 +1515,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>2</Index>
 				</PanelState>
 				<PanelState comment="Grundriss und Schnitt">
@@ -1532,19 +1532,19 @@
 					<Visible>1</Visible>
 					<Index>8</Index>
 				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
 				<PanelState comment="Größe">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20162</UniqueId>
 					<Visible>1</Visible>
 					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
 				</PanelState>
 				<PanelState comment="Spiegeln und Drehen">
 					<DeveloperId>0</DeveloperId>
@@ -1557,8 +1557,15 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20121</UniqueId>
-					<Visible>0</Visible>
+					<Visible>1</Visible>
 					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
 				</PanelState>
 				<PanelState comment="Symbol-Linientyp">
 					<DeveloperId>0</DeveloperId>
@@ -1615,13 +1622,6 @@
 					<UniqueId>23612</UniqueId>
 					<Visible>1</Visible>
 					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
 				</PanelState>
 				<PanelState comment="Eigenschaftsobjekte">
 					<DeveloperId>0</DeveloperId>
@@ -1867,7 +1867,7 @@
 					<Visible>1</Visible>
 					<Index>8</Index>
 				</PanelState>
-				<PanelState comment="Marker Font-Größe ">
+				<PanelState comment="Marker Textgröße ">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -2045,7 +2045,7 @@
 					<Visible>1</Visible>
 					<Index>20</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -2241,7 +2241,7 @@
 					<Visible>0</Visible>
 					<Index>45</Index>
 				</PanelState>
-				<PanelState comment="Geschossmarker-Zeichensatz-Größe">
+				<PanelState comment="Geschossmarker-Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>1</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -2400,6 +2400,13 @@
 					<UniqueId>25406</UniqueId>
 					<Visible>1</Visible>
 					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Wendungstyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>25403</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
 				</PanelState>
 				<PanelState comment="Verknüpfte Geschosse">
 					<DeveloperId>0</DeveloperId>
@@ -2639,13 +2646,6 @@
 					<Visible>1</Visible>
 					<Index>31</Index>
 				</PanelState>
-				<PanelState comment="Wendungstyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>25403</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
 			</ToolState>
 			<ToolState Version="1" comment="Decken-Werkzeug">
 				<Signature>1128614220</Signature>
@@ -2709,7 +2709,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20142</UniqueId>
-					<Visible>0</Visible>
+					<Visible>1</Visible>
 					<Index>6</Index>
 				</PanelState>
 				<PanelState comment="Decken-Kantenwinkel">
@@ -3347,7 +3347,7 @@
 					<Visible>1</Visible>
 					<Index>17</Index>
 				</PanelState>
-				<PanelState comment="Zeichensatz-Größe">
+				<PanelState comment="Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20124</UniqueId>
@@ -3560,7 +3560,7 @@
 					<Visible>1</Visible>
 					<Index>15</Index>
 				</PanelState>
-				<PanelState comment="Zeichensatz-Größe">
+				<PanelState comment="Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20124</UniqueId>
@@ -3675,7 +3675,7 @@
 					<Visible>1</Visible>
 					<Index>8</Index>
 				</PanelState>
-				<PanelState comment="Zeichensatz-Größe">
+				<PanelState comment="Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20124</UniqueId>
@@ -3804,7 +3804,7 @@
 					<Visible>1</Visible>
 					<Index>14</Index>
 				</PanelState>
-				<PanelState comment="Zeichensatz-Größe">
+				<PanelState comment="Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20124</UniqueId>
@@ -3968,7 +3968,7 @@
 					<Visible>1</Visible>
 					<Index>2</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Drehung">
+				<PanelState comment="Text- Größe und Drehung">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>21902</UniqueId>
@@ -4104,7 +4104,7 @@
 					<Visible>1</Visible>
 					<Index>3</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>22001</UniqueId>
@@ -4282,7 +4282,7 @@
 					<Visible>1</Visible>
 					<Index>1</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Drehung">
+				<PanelState comment="Text- Größe und Drehung">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>23202</UniqueId>
@@ -4464,21 +4464,14 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>22104</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Raumstempel-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
 				</PanelState>
 				<PanelState comment="Raumstempelbereich">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>22105</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>9</Index>
 				</PanelState>
 				<PanelState comment="Grundriss Konturlinie">
@@ -4522,6 +4515,13 @@
 					<UniqueId>22116</UniqueId>
 					<Visible>1</Visible>
 					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Raumstempel-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
 				</PanelState>
 				<PanelState comment="Raumstempel Drehung">
 					<DeveloperId>0</DeveloperId>
@@ -4576,7 +4576,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
+					<Visible>0</Visible>
 					<Index>31</Index>
 				</PanelState>
 				<PanelState comment="Eigenschaftsobjekte">
@@ -4593,7 +4593,7 @@
 					<Visible>0</Visible>
 					<Index>19</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20153</UniqueId>
@@ -5227,7 +5227,7 @@
 					<Visible>1</Visible>
 					<Index>9</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -5667,7 +5667,7 @@
 					<Visible>1</Visible>
 					<Index>16</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -5793,7 +5793,7 @@
 					<Visible>0</Visible>
 					<Index>36</Index>
 				</PanelState>
-				<PanelState comment="Geschossmarker-Zeichensatz-Größe">
+				<PanelState comment="Geschossmarker-Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>1</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -6086,7 +6086,7 @@
 					<Visible>1</Visible>
 					<Index>16</Index>
 				</PanelState>
-				<PanelState comment="Font-Größe und Stift">
+				<PanelState comment="Text- Größe und Stift">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -6282,7 +6282,7 @@
 					<Visible>0</Visible>
 					<Index>41</Index>
 				</PanelState>
-				<PanelState comment="Geschossmarker-Zeichensatz-Größe">
+				<PanelState comment="Geschossmarker-Textgröße">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>1</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -6474,7 +6474,7 @@
 					<Visible>1</Visible>
 					<Index>8</Index>
 				</PanelState>
-				<PanelState comment="Marker Font-Größe ">
+				<PanelState comment="Marker Textgröße ">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20133</UniqueId>
@@ -6744,8 +6744,8 @@
 					<Index>28</Index>
 				</PanelState>
 			</ToolState>
-			<ToolState Version="1" comment="Rasterelement">
-				<Signature>1196574028</Signature>
+			<ToolState Version="1" comment="Rohr-Fitting-Werkzeug">
+				<Signature>1346782752</Signature>
 				<PanelState comment="Haupt">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
@@ -6760,215 +6760,131 @@
 					<Visible>1</Visible>
 					<Index>1</Index>
 				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32543</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Raster-Bezeichnung">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32714</UniqueId>
-					<Visible>1</Visible>
-					<Index>30</Index>
-				</PanelState>
-				<PanelState comment="Automatische Raster-Bezeichnungsstil">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32715</UniqueId>
-					<Visible>1</Visible>
-					<Index>31</Index>
-				</PanelState>
-				<PanelState comment="Grundrissdarstellung der Raster-Linien">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32700</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Raster-Linienstil für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32708</UniqueId>
-					<Visible>0</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32701</UniqueId>
-					<Visible>0</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Raster-Linientyp für den Grundriss">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32702</UniqueId>
-					<Visible>0</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Raster-Linientyp für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32709</UniqueId>
-					<Visible>0</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Raster-Linien-Stift für den Grundriss">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32703</UniqueId>
-					<Visible>0</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Linien-Stift für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32710</UniqueId>
-					<Visible>0</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Raster-Marker für den Grundriss">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32704</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Raster-Versatz für den Grundriss">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32705</UniqueId>
-					<Visible>0</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Versatz im Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32713</UniqueId>
-					<Visible>0</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Raster-Attribute-Set für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32706</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Schnitt-Attribute kopieren">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32707</UniqueId>
-					<Visible>0</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Oberer Raster-Marker für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32711</UniqueId>
-					<Visible>0</Visible>
-					<Index>16</Index>
-				</PanelState>
-				<PanelState comment="Unterer Raster-Marker für den Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32712</UniqueId>
-					<Visible>0</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Größe des Raster-Markers">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32718</UniqueId>
-					<Visible>1</Visible>
-					<Index>20</Index>
-				</PanelState>
-				<PanelState comment="Zeichensatz des Raster-Markers">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32716</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Raster-Marker Schriftgröße und Stift">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32719</UniqueId>
-					<Visible>1</Visible>
-					<Index>22</Index>
-				</PanelState>
-				<PanelState comment="Zeichensatz-Stil des Raster-Markers">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32720</UniqueId>
-					<Visible>1</Visible>
-					<Index>21</Index>
-				</PanelState>
-				<PanelState comment="Raster in 3D anzeigen">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32721</UniqueId>
-					<Visible>1</Visible>
-					<Index>24</Index>
-				</PanelState>
-				<PanelState comment="Raster-Position in 3D">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32722</UniqueId>
-					<Visible>1</Visible>
-					<Index>25</Index>
-				</PanelState>
-				<PanelState comment="Raster als Linien anzeigen / Text folgt Blickrichtung">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32723</UniqueId>
-					<Visible>1</Visible>
-					<Index>26</Index>
-				</PanelState>
-				<PanelState comment="3D-Rasterlinie im Schnitt">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32725</UniqueId>
-					<Visible>0</Visible>
-					<Index>27</Index>
-				</PanelState>
-				<PanelState comment="3D-Rasterlinie Oberfläche">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32724</UniqueId>
-					<Visible>1</Visible>
-					<Index>28</Index>
-				</PanelState>
-				<PanelState comment="3D Raster Markertext Oberfläche">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32726</UniqueId>
-					<Visible>1</Visible>
-					<Index>29</Index>
-				</PanelState>
-				<PanelState comment="Zeichensatz-Einstellung des Raster-Markers">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32717</UniqueId>
-					<Visible>0</Visible>
-					<Index>19</Index>
-				</PanelState>
 				<PanelState comment="Klassifizierung">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>23612</UniqueId>
 					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
 					<Index>2</Index>
 				</PanelState>
-				<PanelState comment="Raster-Marker Breite und Abstandsmaßstab">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32567</UniqueId>
-					<Visible>0</Visible>
-					<Index>23</Index>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
 				</PanelState>
 			</ToolState>
 			<ToolState Version="1" comment="Fassadenhalterung-Werkzeug">
@@ -7365,6 +7281,1007 @@
 					<UniqueId>20119</UniqueId>
 					<Visible>0</Visible>
 					<Index>13</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1463894339</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1397506371</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1380335939</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1347174723</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1463896407</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1179404631</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1129072983</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
 				</PanelState>
 			</ToolState>
 			<ToolState Version="1" comment="Gerade Kanäle-Werkzeug">
@@ -9941,1007 +10858,6 @@
 					<Index>16</Index>
 				</PanelState>
 			</ToolState>
-			<ToolState Version="1" comment="Rohr-Zwischenstück-Werkzeug">
-				<Signature>1346980896</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Rohr-Fitting-Werkzeug">
-				<Signature>1346782752</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Werkzeug">
-				<Signature>1129468704</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Gebogener Kabelträger-Werkzeug">
-				<Signature>1128416800</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-T-Stück-Werkzeug">
-				<Signature>1129597472</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Reduzierer-Werkzeug">
-				<Signature>1129596448</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Fitting-Werkzeug">
-				<Signature>1128678944</Signature>
-				<PanelState comment="Haupt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20110</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</PanelState>
-				<PanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20120</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</PanelState>
-				<PanelState comment="Geometriemethode">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20154</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</PanelState>
-				<PanelState comment="Element">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20135</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</PanelState>
-				<PanelState comment="Größe">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20162</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</PanelState>
-				<PanelState comment="Spiegeln und Drehen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20901</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</PanelState>
-				<PanelState comment="Auf Geschoss zeigen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20121</UniqueId>
-					<Visible>1</Visible>
-					<Index>7</Index>
-				</PanelState>
-				<PanelState comment="Verknüpfte Geschosse">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23613</UniqueId>
-					<Visible>1</Visible>
-					<Index>8</Index>
-				</PanelState>
-				<PanelState comment="Unter- und Oberkante">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>21218</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</PanelState>
-				<PanelState comment="Symbol-Linientyp">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20140</UniqueId>
-					<Visible>1</Visible>
-					<Index>9</Index>
-				</PanelState>
-				<PanelState comment="Symbollinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20155</UniqueId>
-					<Visible>1</Visible>
-					<Index>10</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20143</UniqueId>
-					<Visible>1</Visible>
-					<Index>11</Index>
-				</PanelState>
-				<PanelState comment="Konturlinien-Stift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20156</UniqueId>
-					<Visible>1</Visible>
-					<Index>12</Index>
-				</PanelState>
-				<PanelState comment="Schnittschraffur-Vordergrundstift">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20157</UniqueId>
-					<Visible>1</Visible>
-					<Index>13</Index>
-				</PanelState>
-				<PanelState comment="Oberfläche">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20146</UniqueId>
-					<Visible>1</Visible>
-					<Index>14</Index>
-				</PanelState>
-				<PanelState comment="Beschneiden">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20902</UniqueId>
-					<Visible>1</Visible>
-					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20179</UniqueId>
-					<Visible>1</Visible>
-					<Index>18</Index>
-				</PanelState>
-				<PanelState comment="Klassifizierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>23612</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
-				</PanelState>
-				<PanelState comment="ID und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20118</UniqueId>
-					<Visible>1</Visible>
-					<Index>15</Index>
-				</PanelState>
-				<PanelState comment="Eigenschaftsobjekte">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20119</UniqueId>
-					<Visible>1</Visible>
-					<Index>16</Index>
-				</PanelState>
-			</ToolState>
 			<ToolState Version="1" comment="Schalen-Werkzeug">
 				<Signature>1397245260</Signature>
 				<PanelState comment="Haupt">
@@ -11479,8 +11395,8 @@
 					<Index>6</Index>
 				</PanelState>
 			</ToolState>
-			<ToolState Version="1" comment="">
-				<Signature>1095783252</Signature>
+			<ToolState Version="1" comment="Rohr-Zwischenstück-Werkzeug">
+				<Signature>1346980896</Signature>
 				<PanelState comment="Haupt">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
@@ -12814,6 +12730,1091 @@
 					<UniqueId>20118</UniqueId>
 					<Visible>1</Visible>
 					<Index>3</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1095783252</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Werkzeug">
+				<Signature>1129468704</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Gebogener Kabelträger-Werkzeug">
+				<Signature>1128416800</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-T-Stück-Werkzeug">
+				<Signature>1129597472</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Reduzierer-Werkzeug">
+				<Signature>1129596448</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Fitting-Werkzeug">
+				<Signature>1128678944</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20154</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Element">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20135</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Unter- und Oberkante">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>21218</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Größe">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20162</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Spiegeln und Drehen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20901</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20121</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Verknüpfte Geschosse">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23613</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Symbol-Linientyp">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20140</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Symbollinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20155</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20143</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Konturlinien-Stift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20156</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Schnittschraffur-Vordergrundstift">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20157</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Oberfläche">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20146</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="ID und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20118</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Eigenschaftsobjekte">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20119</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Beschneiden">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20902</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20179</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Rasterelement">
+				<Signature>1196574028</Signature>
+				<PanelState comment="Haupt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20110</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</PanelState>
+				<PanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20120</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</PanelState>
+				<PanelState comment="Geometriemethode">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32543</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</PanelState>
+				<PanelState comment="Grundrissdarstellung der Raster-Linien">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32700</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</PanelState>
+				<PanelState comment="Raster-Linienstil für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32708</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</PanelState>
+				<PanelState comment="Auf Geschoss zeigen">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32701</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</PanelState>
+				<PanelState comment="Raster-Linientyp für den Grundriss">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32702</UniqueId>
+					<Visible>1</Visible>
+					<Index>7</Index>
+				</PanelState>
+				<PanelState comment="Raster-Linientyp für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32709</UniqueId>
+					<Visible>1</Visible>
+					<Index>8</Index>
+				</PanelState>
+				<PanelState comment="Raster-Linien-Stift für den Grundriss">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32703</UniqueId>
+					<Visible>1</Visible>
+					<Index>9</Index>
+				</PanelState>
+				<PanelState comment="Linien-Stift für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32710</UniqueId>
+					<Visible>1</Visible>
+					<Index>10</Index>
+				</PanelState>
+				<PanelState comment="Klassifizierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>23612</UniqueId>
+					<Visible>0</Visible>
+					<Index>2</Index>
+				</PanelState>
+				<PanelState comment="Raster-Marker für den Grundriss">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32704</UniqueId>
+					<Visible>1</Visible>
+					<Index>11</Index>
+				</PanelState>
+				<PanelState comment="Raster-Versatz für den Grundriss">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32705</UniqueId>
+					<Visible>1</Visible>
+					<Index>12</Index>
+				</PanelState>
+				<PanelState comment="Versatz im Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32713</UniqueId>
+					<Visible>1</Visible>
+					<Index>13</Index>
+				</PanelState>
+				<PanelState comment="Raster-Attribute-Set für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32706</UniqueId>
+					<Visible>1</Visible>
+					<Index>14</Index>
+				</PanelState>
+				<PanelState comment="Schnitt-Attribute kopieren">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32707</UniqueId>
+					<Visible>1</Visible>
+					<Index>15</Index>
+				</PanelState>
+				<PanelState comment="Oberer Raster-Marker für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32711</UniqueId>
+					<Visible>1</Visible>
+					<Index>16</Index>
+				</PanelState>
+				<PanelState comment="Unterer Raster-Marker für den Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32712</UniqueId>
+					<Visible>1</Visible>
+					<Index>17</Index>
+				</PanelState>
+				<PanelState comment="Zeichensatz des Raster-Markers">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32716</UniqueId>
+					<Visible>1</Visible>
+					<Index>18</Index>
+				</PanelState>
+				<PanelState comment="Zeichensatz-Einstellung des Raster-Markers">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32717</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
+				<PanelState comment="Größe des Raster-Markers">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32718</UniqueId>
+					<Visible>1</Visible>
+					<Index>20</Index>
+				</PanelState>
+				<PanelState comment="Zeichensatz-Stil des Raster-Markers">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32720</UniqueId>
+					<Visible>1</Visible>
+					<Index>21</Index>
+				</PanelState>
+				<PanelState comment="Raster-Marker Schriftgröße und Stift">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32719</UniqueId>
+					<Visible>1</Visible>
+					<Index>22</Index>
+				</PanelState>
+				<PanelState comment="Raster-Marker Breite und Abstandsmaßstab">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32567</UniqueId>
+					<Visible>1</Visible>
+					<Index>23</Index>
+				</PanelState>
+				<PanelState comment="Raster in 3D anzeigen">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32721</UniqueId>
+					<Visible>1</Visible>
+					<Index>24</Index>
+				</PanelState>
+				<PanelState comment="Raster-Position in 3D">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32722</UniqueId>
+					<Visible>1</Visible>
+					<Index>25</Index>
+				</PanelState>
+				<PanelState comment="Raster als Linien anzeigen / Text folgt Blickrichtung">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32723</UniqueId>
+					<Visible>1</Visible>
+					<Index>26</Index>
+				</PanelState>
+				<PanelState comment="3D-Rasterlinie im Schnitt">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32725</UniqueId>
+					<Visible>1</Visible>
+					<Index>27</Index>
+				</PanelState>
+				<PanelState comment="3D-Rasterlinie Oberfläche">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32724</UniqueId>
+					<Visible>1</Visible>
+					<Index>28</Index>
+				</PanelState>
+				<PanelState comment="3D Raster Markertext Oberfläche">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32726</UniqueId>
+					<Visible>1</Visible>
+					<Index>29</Index>
+				</PanelState>
+				<PanelState comment="Raster-Bezeichnung">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32714</UniqueId>
+					<Visible>1</Visible>
+					<Index>30</Index>
+				</PanelState>
+				<PanelState comment="Automatische Raster-Bezeichnungsstil">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32715</UniqueId>
+					<Visible>1</Visible>
+					<Index>31</Index>
 				</PanelState>
 			</ToolState>
 		</InfoBoxPanels>
@@ -14438,7 +15439,13 @@
 			</ToolState>
 			<ToolState Version="1" comment="Trägersegment-Werkzeug">
 				<Signature>1111834963</Signature>
-				<HasHeaderPanel>0</HasHeaderPanel>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
 				<HasBottomPanel>0</HasBottomPanel>
 				<HasLeftPanel>0</HasLeftPanel>
 				<RollDownPanelState comment="Struktur">
@@ -14752,8 +15759,8 @@
 					<Index>6</Index>
 				</RollDownPanelState>
 			</ToolState>
-			<ToolState Version="1" comment="Rasterelement">
-				<Signature>1196574028</Signature>
+			<ToolState Version="1" comment="Rohr-Fitting-Werkzeug">
+				<Signature>1346782752</Signature>
 				<HasHeaderPanel>1</HasHeaderPanel>
 				<HeaderPanelState comment="Auswahlinfo">
 					<DeveloperId>0</DeveloperId>
@@ -14768,55 +15775,54 @@
 					<UniqueId>20182</UniqueId>
 					<Visible>1</Visible>
 				</BottomPanelState>
-				<HasLeftPanel>0</HasLeftPanel>
-				<RollDownPanelState comment="Grundriss">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32540</UniqueId>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
 					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Schnitt/Ansicht">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32541</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Bezeichnungsregeln">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32564</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Marker">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32572</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Textstil">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32617</UniqueId>
-					<Visible>1</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="3D-Ansicht">
-					<DeveloperId>1198731108</DeveloperId>
-					<LocalId>1060140852</LocalId>
-					<UniqueId>32561</UniqueId>
-					<Visible>1</Visible>
-					<Index>6</Index>
-				</RollDownPanelState>
+				</LeftPanelState>
 				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20197</UniqueId>
 					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
 					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
 				</RollDownPanelState>
 			</ToolState>
 			<ToolState Version="1" comment="Fassadenhalterung-Werkzeug">
@@ -15071,6 +16077,468 @@
 					<LocalId>0</LocalId>
 					<UniqueId>20197</UniqueId>
 					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1463894339</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1397506371</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1380335939</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1347174723</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1463896407</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1179404631</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1129072983</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>0</Visible>
 					<Index>4</Index>
 				</RollDownPanelState>
 			</ToolState>
@@ -16262,468 +17730,6 @@
 					<Index>4</Index>
 				</RollDownPanelState>
 			</ToolState>
-			<ToolState Version="1" comment="Rohr-Zwischenstück-Werkzeug">
-				<Signature>1346980896</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Rohr-Fitting-Werkzeug">
-				<Signature>1346782752</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Werkzeug">
-				<Signature>1129468704</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Gebogener Kabelträger-Werkzeug">
-				<Signature>1128416800</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-T-Stück-Werkzeug">
-				<Signature>1129597472</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Reduzierer-Werkzeug">
-				<Signature>1129596448</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
-			<ToolState Version="1" comment="Kabelträger-Fitting-Werkzeug">
-				<Signature>1128678944</Signature>
-				<HasHeaderPanel>1</HasHeaderPanel>
-				<HeaderPanelState comment="Auswahlinfo">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20180</UniqueId>
-					<Visible>1</Visible>
-				</HeaderPanelState>
-				<HasBottomPanel>1</HasBottomPanel>
-				<BottomPanelState comment="Ebene">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20182</UniqueId>
-					<Visible>1</Visible>
-				</BottomPanelState>
-				<HasLeftPanel>1</HasLeftPanel>
-				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20187</UniqueId>
-					<Visible>1</Visible>
-				</LeftPanelState>
-				<RollDownPanelState comment="Vorschau und Positionierung">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20950</UniqueId>
-					<Visible>1</Visible>
-					<Index>0</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Individuelle Einstellungen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20186</UniqueId>
-					<Visible>1</Visible>
-					<Index>1</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Grundriss und Schnitt">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20752</UniqueId>
-					<Visible>1</Visible>
-					<Index>2</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Modell">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20952</UniqueId>
-					<Visible>1</Visible>
-					<Index>3</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20197</UniqueId>
-					<Visible>1</Visible>
-					<Index>5</Index>
-				</RollDownPanelState>
-				<RollDownPanelState comment="Listen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20181</UniqueId>
-					<Visible>0</Visible>
-					<Index>4</Index>
-				</RollDownPanelState>
-			</ToolState>
 			<ToolState Version="1" comment="Schalen-Werkzeug">
 				<Signature>1397245260</Signature>
 				<HasHeaderPanel>1</HasHeaderPanel>
@@ -17150,8 +18156,8 @@
 					<Index>5</Index>
 				</RollDownPanelState>
 			</ToolState>
-			<ToolState Version="1" comment="">
-				<Signature>1095783252</Signature>
+			<ToolState Version="1" comment="Rohr-Zwischenstück-Werkzeug">
+				<Signature>1346980896</Signature>
 				<HasHeaderPanel>1</HasHeaderPanel>
 				<HeaderPanelState comment="Auswahlinfo">
 					<DeveloperId>0</DeveloperId>
@@ -17798,7 +18804,13 @@
 			</ToolState>
 			<ToolState Version="1" comment="Stützensegment-Werkzeug">
 				<Signature>1129272133</Signature>
-				<HasHeaderPanel>0</HasHeaderPanel>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
 				<HasBottomPanel>0</HasBottomPanel>
 				<HasLeftPanel>0</HasLeftPanel>
 				<RollDownPanelState comment="Struktur">
@@ -17830,12 +18842,475 @@
 					<Index>3</Index>
 				</RollDownPanelState>
 			</ToolState>
+			<ToolState Version="1" comment="">
+				<Signature>1095783252</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Werkzeug">
+				<Signature>1129468704</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Gebogener Kabelträger-Werkzeug">
+				<Signature>1128416800</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-T-Stück-Werkzeug">
+				<Signature>1129597472</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Reduzierer-Werkzeug">
+				<Signature>1129596448</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Kabelträger-Fitting-Werkzeug">
+				<Signature>1128678944</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>1</HasLeftPanel>
+				<LeftPanelState comment="Bibliothekenbrowser und Favoriten">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20187</UniqueId>
+					<Visible>1</Visible>
+				</LeftPanelState>
+				<RollDownPanelState comment="Vorschau und Positionierung">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20950</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Individuelle Einstellungen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20186</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss und Schnitt">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20752</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Modell">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20952</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Listen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20181</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+			</ToolState>
+			<ToolState Version="1" comment="Rasterelement">
+				<Signature>1196574028</Signature>
+				<HasHeaderPanel>1</HasHeaderPanel>
+				<HeaderPanelState comment="Auswahlinfo">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20180</UniqueId>
+					<Visible>1</Visible>
+				</HeaderPanelState>
+				<HasBottomPanel>1</HasBottomPanel>
+				<BottomPanelState comment="Ebene">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20182</UniqueId>
+					<Visible>1</Visible>
+				</BottomPanelState>
+				<HasLeftPanel>0</HasLeftPanel>
+				<RollDownPanelState comment="Klassifizierung und Eigenschaften">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20197</UniqueId>
+					<Visible>1</Visible>
+					<Index>0</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Grundriss">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32540</UniqueId>
+					<Visible>1</Visible>
+					<Index>1</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Schnitt/Ansicht">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32541</UniqueId>
+					<Visible>1</Visible>
+					<Index>2</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Bezeichnungsregeln">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32564</UniqueId>
+					<Visible>1</Visible>
+					<Index>3</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Textstil">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32617</UniqueId>
+					<Visible>1</Visible>
+					<Index>4</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="Marker">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32572</UniqueId>
+					<Visible>1</Visible>
+					<Index>5</Index>
+				</RollDownPanelState>
+				<RollDownPanelState comment="3D-Ansicht">
+					<DeveloperId>1198731108</DeveloperId>
+					<LocalId>1060140852</LocalId>
+					<UniqueId>32561</UniqueId>
+					<Visible>1</Visible>
+					<Index>6</Index>
+				</RollDownPanelState>
+			</ToolState>
 		</SettingsPanels>
 		<PersonalToolBox>
 			<Title>ToolBox</Title>
 			<Groups>
 				<Group>
-					<Name>* * *</Name>
+					<Name>AC23</Name>
 					<Visible>1</Visible>
 					<Style>1</Style>
 					<OpenToMax>0</OpenToMax>
@@ -17853,13 +19328,13 @@
 						<CommandId>17156</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
+						<CommandId>17157</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
 						<CommandId>17164</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17165</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
-						<CommandId>17157</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17158</CommandId>
@@ -17871,16 +19346,10 @@
 						<CommandId>17160</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17223</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
 						<CommandId>17195</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17161</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
-						<CommandId>17162</CommandId>
+						<CommandId>17223</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17198</CommandId>
@@ -17889,10 +19358,13 @@
 						<CommandId>17202</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17194</CommandId>
+						<CommandId>17161</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17196</CommandId>
+						<CommandId>17162</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
+						<CommandId>17194</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17166</CommandId>
@@ -17901,19 +19373,28 @@
 						<CommandId>17188</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
+						<CommandId>17196</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
+						<CommandId>17171</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
+						<CommandId>17172</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
 						<CommandId>17173</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17174</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17184</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
-						<CommandId>17175</CommandId>
+						<CommandId>17180</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17177</CommandId>
+						<DevId>0</DevId>
+						<ProdId>0</ProdId>
+						<CommandId>17175</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17176</CommandId>
@@ -17922,10 +19403,7 @@
 						<CommandId>17178</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17171</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
-						<CommandId>17172</CommandId>
+						<CommandId>17184</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17167</CommandId>
@@ -17944,9 +19422,6 @@
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17186</CommandId>
-						<DevId>0</DevId>
-						<ProdId>0</ProdId>
-						<CommandId>17180</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17187</CommandId>

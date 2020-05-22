@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" guid="B7E7D158-5F8D-4FA5-8937-79C1F12A06CB" name="LUX-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" guid="D9F1E3A7-AE87-40F8-9F57-0F7B8EE8B7F2" name="Lux-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings Version="34">
 		<ImagingAndCalculation Version="3">
 			<AutoRebuild3D>1</AutoRebuild3D>
@@ -8,32 +8,32 @@
 			<ShowProgressWindow>1</ShowProgressWindow>
 			<InterruptOnError>0</InterruptOnError>
 			<Generate3DReport>1</Generate3DReport>
-			<ReportLevel>3</ReportLevel>
+			<ReportLevel>2</ReportLevel>
 			<SelElemsListing>1</SelElemsListing>
-			<BackgroundUpdate>2</BackgroundUpdate>
+			<BackgroundUpdate>3</BackgroundUpdate>
 		</ImagingAndCalculation>
 		<SelAndElemInfo Version="3">
 			<HighlightSelElems>1</HighlightSelElems>
-			<HighlightDefaultColor B="0" G="206" R="0">
+			<HighlightDefaultColor B="0" G="217" R="0">
 			</HighlightDefaultColor>
 			<BoldConturLines>1</BoldConturLines>
-			<HighlightSubElemContourColor B="242" G="104" R="13">
+			<HighlightSubElemContourColor B="252" G="125" R="12">
 			</HighlightSubElemContourColor>
-			<SelDotColor B="95" G="91" R="46">
+			<SelDotColor B="106" G="106" R="53">
 			</SelDotColor>
-			<EditableSelDotColor B="232" G="0" R="232">
+			<EditableSelDotColor B="121" G="2" R="219">
 			</EditableSelDotColor>
 			<HighlightSurfacesIn3D>1</HighlightSurfacesIn3D>
-			<HighlightSurfaceColor B="0" G="255" R="0">
+			<HighlightSurfaceColor B="10" G="233" R="166">
 			</HighlightSurfaceColor>
-			<HighlightIntensity>10</HighlightIntensity>
+			<HighlightIntensity>44</HighlightIntensity>
 			<HighlightConturBeforeSel>1</HighlightConturBeforeSel>
-			<ConturColorBeforeSel B="204" G="155" R="26">
+			<ConturColorBeforeSel B="213" G="85" R="0">
 			</ConturColorBeforeSel>
 			<BoldBeforeSelConturLines>1</BoldBeforeSelConturLines>
-			<HighlightDelayTime>0.800000</HighlightDelayTime>
+			<HighlightDelayTime>0.500000</HighlightDelayTime>
 			<HighlightConturWhileEditing>1</HighlightConturWhileEditing>
-			<ConturEditingColor B="190" G="10" R="73">
+			<ConturEditingColor B="198" G="2" R="75">
 			</ConturEditingColor>
 			<BoldEditingConturLines>1</BoldEditingConturLines>
 			<InfoTagDelayTime>0.500000</InfoTagDelayTime>
@@ -47,7 +47,7 @@
 			<ShowLockedLayers>1</ShowLockedLayers>
 			<EnableUDAnimation>1</EnableUDAnimation>
 			<AnimationSpeed>1111</AnimationSpeed>
-			<AutoPosUDDialogs>1</AutoPosUDDialogs>
+			<AutoPosUDDialogs>0</AutoPosUDDialogs>
 			<EnableUDPanelClose>1</EnableUDPanelClose>
 			<PetPaletteMovement>1</PetPaletteMovement>
 			<AppearDist>55</AppearDist>
@@ -57,17 +57,17 @@
 		</DialogPreferences>
 		<TrackerPreferences Version="3">
 			<InputPropertyPreference>0</InputPropertyPreference>
-			<EditTrackerSize>0</EditTrackerSize>
-			<ShowZProperty>0</ShowZProperty>
+			<EditTrackerSize>1</EditTrackerSize>
+			<ShowZProperty>1</ShowZProperty>
 			<HideAllTrackers>0</HideAllTrackers>
 			<UseCoordBoxShortcuts>1</UseCoordBoxShortcuts>
 			<ShowParameterTags>1</ShowParameterTags>
 			<UseCustomColors>1</UseCustomColors>
-			<ForegroundColor B="252" G="84" R="35">
+			<ForegroundColor B="254" G="100" R="32">
 			</ForegroundColor>
 			<BackgroundColor B="255" G="255" R="255">
 			</BackgroundColor>
-			<FrameColor B="254" G="180" R="131">
+			<FrameColor B="255" G="170" R="130">
 			</FrameColor>
 			<Opacity>72</Opacity>
 			<UseRelativeAngle>1</UseRelativeAngle>
@@ -81,9 +81,9 @@
 		</TrackerPreferences>
 		<PointerLinePreferences Version="4">
 			<ArePointerLinesEnabled>1</ArePointerLinesEnabled>
-			<PermanentColor B="49" G="136" R="253">
+			<PermanentColor B="64" G="128" R="255">
 			</PermanentColor>
-			<TemporaryColor B="204" G="204" R="0">
+			<TemporaryColor B="255" G="132" R="9">
 			</TemporaryColor>
 			<AnimationDelay>0.300000</AnimationDelay>
 		</PointerLinePreferences>
@@ -108,9 +108,9 @@
 			<IsAutoIDIncreaseEnabled>1</IsAutoIDIncreaseEnabled>
 			<IsSoundEnabled>0</IsSoundEnabled>
 			<IsAlertInTeamworkEnabled>1</IsAlertInTeamworkEnabled>
-			<IsPlaceDoesntLaunchACEnabled>0</IsPlaceDoesntLaunchACEnabled>
+			<IsPlaceDoesntLaunchACEnabled>1</IsPlaceDoesntLaunchACEnabled>
 			<IsAdjustDrawingFrameToViewZoomEnabled>1</IsAdjustDrawingFrameToViewZoomEnabled>
-			<IsOpenViewsInNewWindowEnabled>1</IsOpenViewsInNewWindowEnabled>
+			<IsOpenViewsInNewWindowEnabled>0</IsOpenViewsInNewWindowEnabled>
 			<IsOpenLayoutsInNewWindowEnabled>0</IsOpenLayoutsInNewWindowEnabled>
 			<IsShowPreviewInTabBarEnabled>1</IsShowPreviewInTabBarEnabled>
 			<RulerVisibility>0</RulerVisibility>
@@ -136,14 +136,14 @@
 			<IsUniformColorForMasterItemsEnabled>1</IsUniformColorForMasterItemsEnabled>
 			<UniformColorForMasterItems B="0" G="0" R="255">
 			</UniformColorForMasterItems>
-			<SnapMarkerColor B="89" G="41" R="214">
+			<SnapMarkerColor B="0" G="0" R="255">
 			</SnapMarkerColor>
 			<SourceMarkerBoundColor B="150" G="255" R="255">
 			</SourceMarkerBoundColor>
 			<FeedbackColor B="0" G="0" R="0">
 			</FeedbackColor>
-			<IsShowLibPartFavoriteContoursEnabled>1</IsShowLibPartFavoriteContoursEnabled>
-			<MarkerOnScreenPen>65</MarkerOnScreenPen>
+			<IsShowLibPartFavoriteContoursEnabled>0</IsShowLibPartFavoriteContoursEnabled>
+			<MarkerOnScreenPen>96</MarkerOnScreenPen>
 			<MarkerOnScreenLineType>1</MarkerOnScreenLineType>
 			<TwHighLightColor B="0" G="0" R="255">
 			</TwHighLightColor>
@@ -175,7 +175,7 @@
 				<EnergyEvaluationOpeningsColor A="0" B="17" G="212" R="255">
 				</EnergyEvaluationOpeningsColor>
 			<ShowTwistedElemsHighlightColor>1</ShowTwistedElemsHighlightColor>
-				<TwistedElemsHighlightColor A="255" B="255" G="36" R="255">
+				<TwistedElemsHighlightColor A="255" B="255" G="63" R="255">
 				</TwistedElemsHighlightColor>
 		</OnScreenOptions>
 	</GlobalSettings>

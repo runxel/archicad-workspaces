@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" guid="31E34C6F-5C52-4977-9EEA-8A52152F66A8" name="LUX-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" guid="46186FA4-BB0E-4B03-BE40-C9BB5DB01E0C" name="Lux-23" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings>
 		<CommandLayout>
 			<Menu ID="Menu1" title="Zuletzt geöffnete Objekte">
@@ -60,6 +60,8 @@
 				<Item command="10264-0x00000000-0x00000000" comment="Öffnung, Schneidekörper"/>
 				<Separator/>
 				<Item command="10259-0x00000000-0x00000000" comment="Verborgene Morph-Geometrie anzeigen"/>
+				<Separator/>
+				<Item command="1295-0x00000000-0x00000000" comment="Automatische Verschneidung"/>
 			</Menu>
 			<Menu ID="Menu7" title="Modelldarstellung">
 				<Item command="1550-0x00000000-0x00000000" comment="Modelldarstellung erstellen..."/>
@@ -106,6 +108,7 @@
 				<Item command="18443-0x00000000-0x00000000" comment="(Empty)"/>
 				<Item command="18444-0x00000000-0x00000000" comment="(Empty)"/>
 				<Item command="18445-0x00000000-0x00000000" comment="(Empty)"/>
+				<Item command="18706-0x00000000-0x00000000" comment="Zwei-Punkt-Perspektive"/>
 				<Item command="18699-0x00000000-0x00000000" comment="Kippwinkel zurücksetzen"/>
 				<Item command="18700-0x00000000-0x00000000" comment="Horizontale Sicht"/>
 				<Separator/>
@@ -387,6 +390,7 @@
 				<Item command="19973-0x00000000-0x00000000" comment="Bibliothekselementscripte nach Warnungen überprüfen"/>
 				<Item command="19991-0x00000000-0x00000000" comment="Immer GDL Mitteilungen senden"/>
 				<Item command="19997-0x00000000-0x00000000" comment="Bibliothekselement Diagnose-Modus"/>
+				<Item command="19999-0x00000000-0x00000000" comment="Veraltete Bibliothekselemente melden"/>
 				<Separator/>
 				<Item command="19974-0x00000000-0x00000000" comment="Bibliothekselemente von dem ausgewähltem Element entladen"/>
 				<Item command="19985-0x00000000-0x00000000" comment="Kopiert mit Rückwärts-Migration."/>
@@ -403,38 +407,81 @@
 				<Separator/>
 				<Item command="19988-0x00000000-0x00000000" comment="Oberflächenmaterial als Gsm sichern aktivieren"/>
 			</Menu>
+			<Menu ID="Menu42" iconID="24000" title="Neu">
+				<Item command="513-0x00000000-0x00000000" comment="Neu..."/>
+				<Item command="514-0x00000000-0x00000000" comment="Neu &amp;&amp; &amp;Wiederherstellen" dynamic="yes"/>
+				<Item command="2325-0x00000000-0x00000000" comment="&amp;Freigeben..."/>
+			</Menu>
+			<Menu ID="Menu43" iconID="24001" title="Öffnen">
+				<Item command="515-0x00000000-0x00000000" comment="&amp;Öffnen..."/>
+				<Item command="533-0x00000000-0x00000000" comment="Teamwork-Projekt öffnen/beitreten..."/>
+				<Item command="2361-0x00000000-0x00000000" comment="Transport-Paket importieren"/>
+				<Separator/>
+				<Item command="8449-0x00000000-0x00000000" comment="&amp;Keine letzten Dateien"/>
+				<Separator/>
+				<Item command="8450-0x00000000-0x00000000" comment="&amp;Keine letzten Objekte"/>
+			</Menu>
+			<Menu ID="Menu44" title="Planungswerkzeuge">
+				<Item command="17155-0x00000000-0x00000000" comment="Wand"/>
+				<Item command="17156-0x00000000-0x00000000" comment="Wandabschluss"/>
+				<Item command="17157-0x00000000-0x00000000" comment="Stütze"/>
+				<Item command="17164-0x00000000-0x00000000" comment="Decke"/>
+				<Item command="17158-0x00000000-0x00000000" comment="Träger"/>
+				<Item command="17165-0x00000000-0x00000000" comment="Dach"/>
+				<Item command="17194-0x00000000-0x00000000" comment="Schale"/>
+				<Item command="17196-0x00000000-0x00000000" comment="Morph"/>
+				<Item command="17223-0x00000000-0x00000000" comment="Öffnung"/>
+				<Item command="17159-0x00000000-0x00000000" comment="Fenster"/>
+				<Item command="17159-0x47732f64-0x4d49133e" comment="Eckfenster"/>
+				<Item command="17195-0x00000000-0x00000000" comment="Dachfenster"/>
+				<Item command="17160-0x00000000-0x00000000" comment="Tür"/>
+				<Item command="17188-0x00000000-0x00000000" comment="Fassade"/>
+				<Item command="17193-0x00000000-0x00000000" comment="Schema"/>
+				<Item command="17189-0x00000000-0x00000000" comment="Profil"/>
+				<Item command="17190-0x00000000-0x00000000" comment="Paneel"/>
+				<Item command="17191-0x00000000-0x00000000" comment="Halterung"/>
+				<Item command="17192-0x00000000-0x00000000" comment="Zubehör"/>
+				<Item command="17161-0x00000000-0x00000000" comment="Objekt"/>
+				<Item command="17198-0x00000000-0x00000000" comment="Treppen"/>
+				<Item command="17202-0x00000000-0x00000000" comment="Geländer"/>
+				<Item command="17162-0x00000000-0x00000000" comment="Lichtquelle"/>
+				<Item command="17173-0x00000000-0x00000000" comment="Raum"/>
+				<Item command="17166-0x00000000-0x00000000" comment="Freifläche"/>
+				<Item command="17161-0x47732f64-0x3f307734" comment="Rasterelement"/>
+			</Menu>
+			<Menu ID="Menu45" title="Referenzlinie und -ebene">
+				<Item command="849-0x00000000-0x00000000" comment="Wand-Referenzlinie ändern..."/>
+				<Item command="850-0x00000000-0x00000000" comment="Wandrichtung invertieren"/>
+				<Item command="851-0x00000000-0x00000000" comment="Decken-Referenzebene verändern..."/>
+			</Menu>
+			<Menu ID="Menu46" title="Elementeinstellungen">
+				<Item command="796-0x00000000-0x00000000" comment="Aktivierte Elemente &amp;ändern..."/>
+				<Item command="797-0x00000000-0x00000000" comment="Werkzeug-Einstellungen"/>
+				<Separator/>
+				<Item command="799-0x00000000-0x00000000" comment="Parameter aufnehmen"/>
+				<Item command="800-0x00000000-0x00000000" comment="Parameter übergeben"/>
+				<Item command="863-0x00000000-0x00000000" comment="Parameter-Transfereinstellungen..."/>
+				<Separator/>
+				<Item command="852-0x00000000-0x00000000" comment="Ursprungsgeschoss neu verknüpfen..."/>
+			</Menu>
 			<MenuBar ID="MenuBar1" menubarguid="2085E4D3-5694-4BB9-ACAC-3AED5BE50091" name="Grundriss">
-				<Menu ID="Menu42" title="&amp;Ablage">
-					<PopupItem>
-						<Menu ID="Menu43" iconID="24000" title="Neu">
-							<Item command="513-0x00000000-0x00000000" comment="Neu..."/>
-							<Item command="514-0x00000000-0x00000000" comment="Neu &amp;&amp; &amp;Wiederherstellen" dynamic="yes"/>
-							<Item command="2325-0x00000000-0x00000000" comment="&amp;Freigeben..."/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu44" iconID="24001" title="Öffnen">
-							<Item command="515-0x00000000-0x00000000" comment="&amp;Öffnen..."/>
-							<Item command="533-0x00000000-0x00000000" comment="Teamwork-Projekt öffnen/beitreten..."/>
-							<Item command="2361-0x00000000-0x00000000" comment="Transport-Paket importieren"/>
-							<Separator/>
-							<Item command="8449-0x00000000-0x00000000" comment="&amp;Keine letzten Dateien"/>
-							<Separator/>
-							<Item command="8450-0x00000000-0x00000000" comment="&amp;Keine letzten Objekte"/>
-						</Menu>
-					</PopupItem>
+				<Menu ID="Menu47" title="&amp;Ablage">
+					<Item command="513-0x00000000-0x00000000" comment="Neu..."/>
+					<Item command="514-0x00000000-0x00000000" comment="Neu &amp;&amp; &amp;Wiederherstellen" dynamic="yes"/>
+					<Item command="515-0x00000000-0x00000000" comment="&amp;Öffnen..."/>
 					<Item command="537-0x00000000-0x00000000" comment="&amp;Projekt schließen"/>
+					<Separator/>
+					<Item command="8449-0x00000000-0x00000000" comment="&amp;Keine letzten Dateien"/>
 					<Separator/>
 					<Item command="518-0x00000000-0x00000000" comment="&amp;Sichern"/>
 					<Item command="519-0x00000000-0x00000000" comment="Si&amp;chern als..."/>
-					<Item command="14594-0x00000000-0x00000000" comment="Publiziere BIMx Hyper-Modell..."/>
 					<Item command="655491073-0x47732f64-0x6b5a8932" comment="(Empty)"/>
 					<PopupItem>
-						<Menu ID="Menu45" title="Interoperabilität">
+						<Menu ID="Menu48" title="Interoperabilität">
 							<Item command="516-0x00000000-0x00000000" comment="Dazu&amp;laden..."/>
 							<Separator/>
 							<PopupItem>
-								<Menu ID="Menu46" iconID="24539" title="IFC">
+								<Menu ID="Menu49" iconID="24539" title="IFC">
 									<Item command="2130706433-0x47732f64-0x08427fea" comment="IFC Projekt Manager..."/>
 									<Separator/>
 									<Item command="2130968577-0x47732f64-0x08427fea" comment="IFC-Übersetzer..."/>
@@ -446,25 +493,32 @@
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu47" title="DXF-DWG">
+								<Menu ID="Menu50" title="DXF-DWG">
 									<Item command="2130116609-0x47732f64-0x4ed650a5" comment="DXF-DWG Übersetzer..."/>
 									<Item command="2129920001-0x47732f64-0x165b1bf4" comment="Dazuladen Optionen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu48" title="Element-Eigenschaften">
+								<Menu ID="Menu51" title="Element-Eigenschaften">
 									<Item command="544-0x00000000-0x00000000" comment="BIM Inhalt herunterladen..."/>
 									<Item command="543-0x00000000-0x00000000" comment="BIM Inhalt importieren..."/>
 									<Separator/>
 									<Item command="2031681537-0x47732f64-0x74913216" comment="Eigenschaftenwerte aus Liste exportieren..."/>
 									<Item command="2031681538-0x47732f64-0x74913216" comment="Eigenschaftenwerte in Elemente importieren..."/>
 									<Separator/>
-									<Item command="2129920001-0x47732f52-0x3db258ad" comment="Merkmalserver Verbindungs..."/>
+									<Item command="2129920001-0x47732f52-0x3db258ad" comment="Merkmalserver Verbindung..."/>
+								</Menu>
+							</PopupItem>
+							<PopupItem>
+								<Menu ID="Menu52" title="3D Studio">
+									<Item command="2129920001-0x47732f64-0xa62a74a2" comment="3DS zu GDL Umwandlungsoptionen..."/>
+									<Item command="2129920002-0x47732f64-0xa62a74a2" comment="3DS als GDL Objekt importieren..."/>
+									<Item command="2129920003-0x47732f64-0xa62a74a2" comment="(Empty)"/>
 								</Menu>
 							</PopupItem>
 							<Item command="542-0x00000000-0x00000000" comment="Add-On Befehle in dem Datei/Interoperabilität-Untermenü."/>
 							<Separator/>
-							<Item command="2129920001-0x47732f64-0xad99a42f" comment="(Empty)"/>
+							<Item command="2129920001-0x47732f64-0xad99a42f" comment="Grasshopper Connection..."/>
 							<Item command="5910-0x00000000-0x00000000" comment="-"/>
 							<Item command="2129920001-0x47732f64-0x2f8a9ec2" comment="Punktwolken importieren..."/>
 							<Item command="2133196801-0x47732f64-0x197595c3" comment="Modell an Google Earth senden..."/>
@@ -473,7 +527,7 @@
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu49" title="Externe Daten">
+						<Menu ID="Menu53" title="Externe Daten">
 							<Item command="8193-0x00000000-0x00000000" comment="Hotlin&amp;k platzieren..."/>
 							<Item command="8198-0x00000000-0x00000000" comment="Hotlink unterbrechen (Elemente einbetten)"/>
 							<Item command="8199-0x00000000-0x00000000" comment="Hotlink &amp;Sichern als Datei..."/>
@@ -492,18 +546,25 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu50" title="Bibliotheken und Objekte">
+						<Menu ID="Menu54" title="Bibliotheken und Objekte">
 							<Item command="523-0x00000000-0x00000000" comment="Bibliothe&amp;kenmanager..."/>
 							<Item command="535-0x00000000-0x00000000" comment="BIMcloud-Bibliotheken verwalten..."/>
 							<Separator/>
 							<Item command="18177-0x00000000-0x00000000" comment="Container erstellen..."/>
 							<Item command="18178-0x00000000-0x00000000" comment="Container entpacken..."/>
 							<Item command="541-0x00000000-0x00000000" comment="Im Bibliothekenmanager anzeigen"/>
+							<Item command="14344-0x00000000-0x00000000" comment="Bibliotheken neu laden"/>
+							<Separator/>
+							<Item command="19987-0x00000000-0x00000000" comment="GDL Werkzeug Grundeinstellungen zurückstellen"/>
+							<Item command="19991-0x00000000-0x00000000" comment="Immer GDL Mitteilungen senden"/>
+							<Item command="19997-0x00000000-0x00000000" comment="Bibliothekselement Diagnose-Modus"/>
+							<Item command="19973-0x00000000-0x00000000" comment="Bibliothekselementscripte nach Warnungen überprüfen"/>
+							<Item command="19972-0x00000000-0x00000000" comment="Detaillierten Bibliotheken laden Report schreiben"/>
 							<Separator/>
 							<Item command="14337-0x00000000-0x00000000" comment="&amp;Neues Objekt..."/>
 							<Item command="14338-0x00000000-0x00000000" comment="&amp;Objekt öffnen..."/>
 							<PopupItem>
-								<Menu ID="Menu51" iconID="24004" title="Auswahl sichern als...">
+								<Menu ID="Menu55" iconID="24004" title="Auswahl sichern als...">
 									<Item command="14348-0x00000000-0x00000000" comment="Objekt..."/>
 									<Item command="14349-0x00000000-0x00000000" comment="Tür..."/>
 									<Item command="14350-0x00000000-0x00000000" comment="Fenster..."/>
@@ -526,7 +587,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu52" title="Info">
+						<Menu ID="Menu56" title="Info">
 							<Item command="521-0x00000000-0x00000000" comment="Projekt-&amp;Info..."/>
 							<Item command="2857-0x00000000-0x00000000" comment="Aktions-Center..."/>
 							<Separator/>
@@ -544,9 +605,8 @@
 					<Item command="526-0x00000000-0x00000000" comment="Papierfor&amp;mat..."/>
 					<Item command="527-0x00000000-0x00000000" comment="&amp;Drucken..."/>
 					<Separator/>
-					<Item command="528-0x00000000-0x00000000" comment="&amp;Beenden"/>
 				</Menu>
-				<Menu ID="Menu53" title="&amp;Bearbeiten">
+				<Menu ID="Menu57" title="&amp;Bearbeiten">
 					<Item command="769-0x00000000-0x00000000" comment="Wider&amp;rufen"/>
 					<Item command="770-0x00000000-0x00000000" comment="Wiederaus&amp;führen"/>
 					<Item command="771-0x00000000-0x00000000" comment="&amp;Wiederhole den letzten Befehl"/>
@@ -556,13 +616,19 @@
 					<Item command="774-0x00000000-0x00000000" comment="&amp;Einfügen"/>
 					<Item command="775-0x00000000-0x00000000" comment="Löschen"/>
 					<Separator/>
-					<Item command="776-0x00000000-0x00000000" comment="Alle Wände aktiviere&amp;n"/>
+					<Item command="776-0x00000000-0x00000000" comment="Alle Elemente aktiviere&amp;n"/>
 					<Item command="777-0x00000000-0x00000000" comment="Su&amp;chen &amp;&amp; aktivieren..."/>
 					<Item command="2129920001-0x47732f64-0x48672018" comment="Text suchen &amp;&amp; ersetzen..."/>
 					<Item command="778-0x00000000-0x00000000" comment="Add-On Befehle im Bearbeiten-Menü."/>
+					<PopupItem>
+						<Menu ID="Menu58" title="Doppelte Elemente überprüfen">
+							<Item command="2129920001-0x47732f64-0x6eaf3ff0" comment="Wählen..."/>
+							<Item command="2129920002-0x47732f64-0x6eaf3ff0" comment="Löschen..."/>
+						</Menu>
+					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu54" title="Gruppieren">
+						<Menu ID="Menu59" title="Gruppieren">
 							<Item command="1281-0x00000000-0x00000000" comment="&amp;Gruppieren"/>
 							<Item command="1282-0x00000000-0x00000000" comment="Gr&amp;uppe auflösen"/>
 							<Separator/>
@@ -571,7 +637,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu55" title="Darstellungs&amp;reihenfolge">
+						<Menu ID="Menu60" title="Darstellungs&amp;reihenfolge">
 							<Item command="14849-0x00000000-0x00000000" comment="In den &amp;Vordergrund"/>
 							<Item command="14850-0x00000000-0x00000000" comment="Nach v&amp;orn"/>
 							<Item command="14851-0x00000000-0x00000000" comment="Nach h&amp;inten"/>
@@ -580,7 +646,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu56" title="Element sperren">
+						<Menu ID="Menu61" title="Element sperren">
 							<Item command="1285-0x00000000-0x00000000" comment="&amp;Sperren"/>
 							<Item command="1286-0x00000000-0x00000000" comment="&amp;Entsperren"/>
 							<Item command="1287-0x00000000-0x00000000" comment="&amp;Alle entsperren"/>
@@ -588,7 +654,7 @@
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu57" title="Bewegen">
+						<Menu ID="Menu62" title="Bewegen">
 							<Item command="779-0x00000000-0x00000000" comment="&amp;Verschieben"/>
 							<Item command="780-0x00000000-0x00000000" comment="&amp;Drehen"/>
 							<Item command="781-0x00000000-0x00000000" comment="&amp;Spiegeln"/>
@@ -608,7 +674,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu58" title="Ausrichten">
+						<Menu ID="Menu63" title="Ausrichten">
 							<Item command="5121-0x00000000-0x00000000" comment="Horizontal &amp;Links"/>
 							<Item command="5125-0x00000000-0x00000000" comment="&amp;Horizontal Mitte"/>
 							<Item command="5123-0x00000000-0x00000000" comment="Horizontal &amp;Rechts"/>
@@ -619,7 +685,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu59" title="Verteilen">
+						<Menu ID="Menu64" title="Verteilen">
 							<Item command="5377-0x00000000-0x00000000" comment="Entlang der &amp;X-Achse"/>
 							<Item command="5378-0x00000000-0x00000000" comment="Entlang der &amp;Y-Achse"/>
 							<Item command="5379-0x00000000-0x00000000" comment="&amp;Entlang der X-Y-Achsen"/>
@@ -627,7 +693,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu60" title="Verändern">
+						<Menu ID="Menu65" title="Verändern">
 							<Item command="798-0x00000000-0x00000000" comment="Trimmen"/>
 							<Item command="788-0x00000000-0x00000000" comment="Längenänder&amp;ung"/>
 							<Item command="789-0x00000000-0x00000000" comment="Grö&amp;ßenänderung"/>
@@ -644,7 +710,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu61" title="Vereinigen &amp;&amp; zerlegen">
+						<Menu ID="Menu66" title="Vereinigen &amp;&amp; zerlegen">
 							<Item command="7172-0x00000000-0x00000000" comment="Ver&amp;einigen"/>
 							<Item command="805-0x00000000-0x00000000" comment="Linien-Vereinigung..."/>
 							<Item command="806-0x00000000-0x00000000" comment="Schraffuren-Vereinigung..."/>
@@ -658,29 +724,203 @@
 							<Item command="1290-0x00000000-0x00000000" comment="&amp;In 2D-Elemente zerlegen..."/>
 						</Menu>
 					</PopupItem>
+					<Separator/>
+					<Item command="796-0x00000000-0x00000000" comment="Aktivierte Elemente &amp;ändern..."/>
+					<Item command="797-0x00000000-0x00000000" comment="Werkzeug-Einstellungen"/>
+					<Item command="799-0x00000000-0x00000000" comment="Parameter aufnehmen"/>
+					<Item command="800-0x00000000-0x00000000" comment="Parameter übergeben"/>
+					<Item command="863-0x00000000-0x00000000" comment="Parameter-Transfereinstellungen..."/>
+				</Menu>
+				<Menu ID="Menu67" title="&amp;Planung">
 					<PopupItem>
-						<Menu ID="Menu62" title="Elementeinstellungen">
-							<Item command="796-0x00000000-0x00000000" comment="Aktivierte Elemente &amp;ändern..."/>
-							<Item command="797-0x00000000-0x00000000" comment="Wand-Grundeinstellung"/>
+						<Menu ID="Menu68" title="Planungshilfen">
+							<Item command="18955-0x00000000-0x00000000" comment="Schwerkraft"/>
+							<Item command="18959-0x00000000-0x00000000" comment="Schwerkraft auf Dach"/>
+							<Item command="18956-0x00000000-0x00000000" comment="Schwerkraft auf Decke"/>
+							<Item command="18958-0x00000000-0x00000000" comment="Schwerkraft auf Freifläche"/>
+							<Item command="18974-0x00000000-0x00000000" comment="Schwerkraft auf Schale"/>
 							<Separator/>
-							<Item command="799-0x00000000-0x00000000" comment="Parameter aufnehmen"/>
-							<Item command="800-0x00000000-0x00000000" comment="Parameter übergeben"/>
-							<Item command="863-0x00000000-0x00000000" comment="Parameter-Transfereinstellungen..."/>
+							<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
+							<Item command="18968-0x00000000-0x00000000" comment="Maß"/>
 							<Separator/>
-							<Item command="852-0x00000000-0x00000000" comment="Ursprungsgeschoss neu verknüpfen..."/>
+							<Item command="16949-0x00000000-0x00000000" comment="Einschränkung auf Lotrecht"/>
+							<Item command="16948-0x00000000-0x00000000" comment="Einschränkung auf Parallel"/>
+							<Item command="16920-0x00000000-0x00000000" comment="Fangpunktbeschränkungen"/>
+							<Item command="16918-0x00000000-0x00000000" comment="Einschränkung auf Winkelhalbierende"/>
+							<Item command="16950-0x00000000-0x00000000" comment="Einschränkung auf Zur Oberfläche ausrichten"/>
+							<Item command="16919-0x00000000-0x00000000" comment="Versatz/Mehrfacher Versatz"/>
 						</Menu>
 					</PopupItem>
 					<Separator/>
+					<Item command="6401-0x00000000-0x00000000" comment="&amp;Geschoss-Einstellungen..."/>
+					<Item command="6412-0x00000000-0x00000000" comment="&amp;Elemente nach Geschossen bearbeiten..."/>
+					<Item command="6408-0x00000000-0x00000000" comment="Geschosshöhen bearbeiten"/>
+					<Item command="13988-0x00000000-0x00000000" comment="Schnitt/Ansichtsbereich"/>
+					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu63" title="Referenzlinie und -ebene">
-							<Item command="849-0x00000000-0x00000000" comment="Wand-Referenzlinie ändern..."/>
-							<Item command="850-0x00000000-0x00000000" comment="Wandrichtung invertieren"/>
-							<Item command="851-0x00000000-0x00000000" comment="Decken-Referenzebene verändern..."/>
+						<Menu ID="Menu69" iconID="24552" title="Verbinden">
+							<Item command="836-0x00000000-0x00000000" comment="Elemente mit Dach/Schale trimmen"/>
+							<Item command="856-0x00000000-0x00000000" comment="Elemente verschmelzen"/>
+							<Item command="10258-0x00000000-0x00000000" comment="Trimm-Körper"/>
+							<Separator/>
+							<Item command="810-0x00000000-0x00000000" comment="Wände mit Fassade verbinden..."/>
+							<Separator/>
+							<Item command="837-0x00000000-0x00000000" comment="Alle Verbindungen löschen"/>
 						</Menu>
 					</PopupItem>
+					<Item command="795-0x00000000-0x00000000" comment="Solid Element-&amp;Befehle..."/>
+					<Separator/>
+					<Item command="1292-0x00000000-0x00000000" comment="Räume a&amp;ktualisieren..."/>
+					<Item command="793-0x00000000-0x00000000" comment="Raum &amp;beschneiden..."/>
+					<Separator/>
+					<Item command="852-0x00000000-0x00000000" comment="Ursprungsgeschoss neu verknüpfen..."/>
+					<Separator/>
+					<Item command="851-0x00000000-0x00000000" comment="Decken-Referenzebene verändern..."/>
 					<Item command="853-0x00000000-0x00000000" comment="Elemente an Decken anpassen..."/>
+					<Separator/>
+					<Item command="26625-0x00000000-0x00000000" comment="System-Bearbeitungsmodus aufrufen"/>
+					<Separator/>
+					<PopupItem>
+						<Menu ID="Menu70" title="Wand">
+							<Item command="849-0x00000000-0x00000000" comment="Wand-Referenzlinie ändern..."/>
+							<Item command="850-0x00000000-0x00000000" comment="Wandrichtung invertieren"/>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu71" title="Dach">
+							<Item command="792-0x00000000-0x00000000" comment="Mit Einzel-Dach beschneiden..."/>
+							<Item command="862-0x00000000-0x00000000" comment="&amp;Alle Verschneidungen aufheben"/>
+							<Separator/>
+							<Item command="841-0x00000000-0x00000000" comment="In Einzel-Dachflächen zerlegen..."/>
+							<Item command="7173-0x00000000-0x00000000" comment="&amp;Dach-Höhenlinien erstellen..."/>
+							<Item command="2129920001-0x47732f64-0x53b843cb" comment="Freiflächen mit Dach ersetzen"/>
+							<Separator/>
+							<PopupItem>
+								<Menu ID="Menu72" title="RoofMaker">
+									<Item command="2129920001-0x47732f64-0x64eb59a4" comment="Sparren erstellen..."/>
+									<Item command="2129920002-0x47732f64-0x64eb59a4" comment="Sparrenlage erstellen..."/>
+									<Item command="2129920003-0x47732f64-0x64eb59a4" comment="Gratsparren erstellen..."/>
+									<Item command="2129920004-0x47732f64-0x64eb59a4" comment="Wechsel erstellen..."/>
+									<Item command="2129920005-0x47732f64-0x64eb59a4" comment="Pfette erstellen..."/>
+									<Item command="2129920006-0x47732f64-0x64eb59a4" comment="Fußpfette erstellen..."/>
+									<Item command="2129920007-0x47732f64-0x64eb59a4" comment="Zugband erstellen..."/>
+									<Item command="2129920008-0x47732f64-0x64eb59a4" comment="Kehlbalken erstellen..."/>
+									<Item command="2129920009-0x47732f64-0x64eb59a4" comment="Dachstuhlassistent..."/>
+									<Separator/>
+									<Item command="2129920011-0x47732f64-0x64eb59a4" comment="RoofMaker Werkzeuge zeigen"/>
+								</Menu>
+							</PopupItem>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu73" title="Geländer">
+							<Item command="29700-0x00000000-0x00000000" comment="Unabhängige Segmente und Knoten erstellen"/>
+							<Item command="29701-0x00000000-0x00000000" comment="Muster in Segmentlänge umwandeln"/>
+							<Item command="29702-0x00000000-0x00000000" comment="Geländer an der Referenzlinie spiegeln"/>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu74" title="Fassade">
+							<Item command="26629-0x00000000-0x00000000" comment="Zellen-Muster kopieren"/>
+							<Separator/>
+							<Item command="26632-0x00000000-0x00000000" comment="Fassade splitten"/>
+							<Item command="26631-0x00000000-0x00000000" comment="Verbindungsprofil erstellen..."/>
+							<Item command="810-0x00000000-0x00000000" comment="Wände mit Fassade verbinden..."/>
+							<Separator/>
+							<Item command="1312-0x00000000-0x00000000" comment="Komponenten ausgewählter Elemente etikettieren"/>
+							<Separator/>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu75" title="Schale">
+							<Item command="839-0x00000000-0x00000000" comment="Schalen-Kontur definieren"/>
+							<Item command="840-0x00000000-0x00000000" comment="Loch in Schale erstellen"/>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu76" title="Öffnungen">
+							<Item command="866-0x00000000-0x00000000" comment="Öffnung in ein weiteres Element schneiden"/>
+							<Item command="5911-0x00000000-0x00000000" comment="Öffnungen aus Auswahl erstellen..."/>
+						</Menu>
+					</PopupItem>
+					<PopupItem>
+						<Menu ID="Menu77" title="Morph">
+							<Item command="1305-0x00000000-0x00000000" comment="Auswahl in Morphs konvertieren..."/>
+							<Separator/>
+							<Item command="1307-0x00000000-0x00000000" comment="Solidität überprüfen"/>
+							<Item command="1308-0x00000000-0x00000000" comment="Mit Flächen bedecken..."/>
+							<Separator/>
+							<Item command="845-0x00000000-0x00000000" comment="Vereinen"/>
+							<Item command="846-0x00000000-0x00000000" comment="Abziehen..."/>
+							<Item command="847-0x00000000-0x00000000" comment="Verschneiden"/>
+							<Separator/>
+							<Item command="843-0x00000000-0x00000000" comment="Kanten ausrunden &amp;&amp; vereinigen"/>
+							<Item command="848-0x00000000-0x00000000" comment="Flächen glätten &amp;&amp; vereinigen..."/>
+							<Separator/>
+							<Item command="1309-0x00000000-0x00000000" comment="Segmentierung verändern..."/>
+							<Item command="844-0x00000000-0x00000000" comment="Morph-Flächen verschneiden"/>
+							<Item command="10259-0x00000000-0x00000000" comment="Verborgene Morph-Geometrie anzeigen"/>
+						</Menu>
+					</PopupItem>
+					<Separator/>
+					<Item command="852-0x00000000-0x00000000" comment="Ursprungsgeschoss neu verknüpfen..."/>
+					<Separator/>
+					<PopupItem>
+						<Menu ID="Menu78" title="Extras">
+							<PopupItem>
+								<Menu ID="Menu79" title="Zubehör">
+									<Item command="2129920001-0x47732f64-0x117928ce" comment="Dachzubehör..."/>
+									<Item command="2129920002-0x47732f64-0x117928ce" comment="Deckenzubehör..."/>
+									<Item command="2129920003-0x47732f64-0x117928ce" comment="Wandzubehör..."/>
+								</Menu>
+							</PopupItem>
+							<PopupItem>
+								<Menu ID="Menu80" title="Raumzubehör">
+									<Item command="2129920001-0x47732f64-0xc094335f" comment="Erstellen"/>
+									<Item command="2129920002-0x47732f64-0xc094335f" comment="Aktualisieren"/>
+								</Menu>
+							</PopupItem>
+							<Separator/>
+							<PopupItem>
+								<Menu ID="Menu81" title="TrussMaker">
+									<Item command="2129920001-0x47732f64-0x8aa63b15" comment="Fachwerk erstellen..."/>
+									<Item command="2129920002-0x47732f64-0x8aa63b15" comment="Fachwerk bearbeiten..."/>
+								</Menu>
+							</PopupItem>
+							<Separator/>
+							<Item command="2129920001-0x47732f64-0x53b843cb" comment="Freiflächen mit Dach ersetzen"/>
+							<Separator/>
+							<Item command="2129920001-0x47732f64-0xa0bb4414" comment="Profiler"/>
+							<Separator/>
+							<Item command="16641-0x00000000-0x00000000" comment="Add-On Befehle im Planung/Planung Extras-Untermenü."/>
+						</Menu>
+					</PopupItem>
+					<Separator/>
+					<Item command="2129920001-0x47732f64-0x3f307734" comment="Rastersystem..."/>
+					<Item command="864-0x00000000-0x00000000" comment="Kollisionserkennung..."/>
+					<Item command="2850-0x00000000-0x00000000" comment="(Empty)"/>
+					<PopupItem>
+						<Menu ID="Menu82" iconID="9899" title="Energiebewertung">
+							<Item command="2129985537-0x47732f64-0x4a819ae7" comment="Energiemodell-Überprüfung"/>
+							<Separator/>
+							<Item command="1558-0x00000000-0x00000000" comment="Nutzungsprofile..."/>
+							<Separator/>
+							<Item command="2130182145-0x47732f64-0x4a819ae7" comment="Umgebungseinstellungen..."/>
+							<Item command="2130247681-0x47732f64-0x4a819ae7" comment="Klimadaten..."/>
+							<Separator/>
+							<Item command="2130313217-0x47732f64-0x4a819ae7" comment="Gebäudetechnik..."/>
+							<Item command="2130378753-0x47732f64-0x4a819ae7" comment="Energiequellen-Faktoren..."/>
+							<Item command="2130444289-0x47732f64-0x4a819ae7" comment="Energiekosten..."/>
+							<Separator/>
+							<Item command="1474625537-0x47732f64-0x4a819ae7" comment="Wärmebrückensimulation..."/>
+							<Item command="2130509825-0x47732f64-0x4a819ae7" comment="(Empty)"/>
+							<Item command="2130575361-0x47732f64-0x4a819ae7" comment="(Empty)"/>
+							<Separator/>
+							<Item command="1474691073-0x47732f64-0x4a819ae7" comment="Optionen für die Energiesimulation..."/>
+						</Menu>
+					</PopupItem>
 				</Menu>
-				<Menu ID="Menu64" title="A&amp;nsicht">
+				<Menu ID="Menu83" title="A&amp;nsicht">
 					<PopupItem>
 						<Menu IDREF="Menu6"/>
 					</PopupItem>
@@ -689,7 +929,7 @@
 					<Item command="1540-0x00000000-0x00000000" comment="Konstruktionsraster darstellen"/>
 					<Item command="1818-0x00000000-0x00000000" comment="Darstellung der Bearbeitungsebene"/>
 					<PopupItem>
-						<Menu ID="Menu65" title="Transparentpausen-Optionen">
+						<Menu ID="Menu84" title="Transparentpausen-Optionen">
 							<PopupItem>
 								<Menu IDREF="Menu37"/>
 							</PopupItem>
@@ -709,7 +949,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu66" title="Raster- &amp;&amp; Bearbeitungsebenen-Optionen">
+						<Menu ID="Menu85" title="Raster- &amp;&amp; Bearbeitungsebenen-Optionen">
 							<Item command="1538-0x00000000-0x00000000" comment="&amp;Raster-Einstellungen..."/>
 							<Separator/>
 							<Item command="18963-0x00000000-0x00000000" comment="Orthogonales Raster"/>
@@ -736,7 +976,7 @@
 					<Item command="1557-0x00000000-0x00000000" comment="Lineal"/>
 					<Item command="7937-0x00000000-0x00000000" comment="Hilfslinien"/>
 					<PopupItem>
-						<Menu ID="Menu67" title="Hilfslinien-Optionen">
+						<Menu ID="Menu86" title="Hilfslinien-Optionen">
 							<Item command="7942-0x00000000-0x00000000" comment="Hilfslinien-Segment erstellen"/>
 							<Item command="7938-0x00000000-0x00000000" comment="Alle Hilfslinien löschen"/>
 							<Item command="7948-0x00000000-0x00000000" comment="Hilfslinien löschen"/>
@@ -756,10 +996,10 @@
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu68" title="Elemente in 3D">
+						<Menu ID="Menu87" title="Elemente in 3D">
 							<Item command="1796-0x00000000-0x00000000" comment="3D-Schnitt &amp;ausführen"/>
 							<PopupItem>
-								<Menu ID="Menu69" title="3D-Schnittebenen">
+								<Menu ID="Menu88" title="3D-Schnittebenen">
 									<Item command="19714-0x00000000-0x00000000" comment="Eigene Schnittebene erstellen"/>
 									<Item command="19716-0x00000000-0x00000000" comment="Alle Schnittebenen löschen"/>
 									<Item command="19713-0x00000000-0x00000000" comment="Schnittebenen anzeigen"/>
@@ -773,7 +1013,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu70" title="3D-Darstellungsmodus">
+						<Menu ID="Menu89" title="3D-Darstellungsmodus">
 							<Item command="1793-0x00000000-0x00000000" comment="Standort &amp;&amp; Proje&amp;ktionsart..."/>
 							<Separator/>
 							<Item command="18697-0x00000000-0x00000000" comment="Perspektive"/>
@@ -788,7 +1028,7 @@
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu71" title="Zoom">
+						<Menu ID="Menu90" title="Zoom">
 							<Item command="2567-0x00000000-0x00000000" comment="Auf Aus&amp;wahl zoomen"/>
 							<Item command="2568-0x00000000-0x00000000" comment="&amp;Optimieren"/>
 							<Item command="2570-0x00000000-0x00000000" comment="Ma&amp;ßstabsgerecht darstellen"/>
@@ -808,7 +1048,7 @@
 					<Item command="1803-0x00000000-0x00000000" comment="Add-On Befehle im Dokumentation/3D-Einstellungen-Untermenü."/>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu72" title="Neuaufbau">
+						<Menu ID="Menu91" title="Neuaufbau">
 							<Item command="2562-0x00000000-0x00000000" comment="Neu &amp;aufbauen"/>
 							<Item command="2563-0x00000000-0x00000000" comment="Neu aufbauen &amp;&amp; regenerieren" dynamic="yes"/>
 							<Item command="15617-0x00000000-0x00000000" comment="&amp;Anhand des Modells neu aufbauen"/>
@@ -816,200 +1056,9 @@
 						</Menu>
 					</PopupItem>
 				</Menu>
-				<Menu ID="Menu73" title="&amp;Planung">
+				<Menu ID="Menu92" title="&amp;Dokumentation">
 					<PopupItem>
-						<Menu ID="Menu74" title="Planungswerkzeuge">
-							<Item command="17155-0x00000000-0x00000000" comment="Wand"/>
-							<Item command="17156-0x00000000-0x00000000" comment="Wandabschluss"/>
-							<Item command="17157-0x00000000-0x00000000" comment="Stütze"/>
-							<Item command="17164-0x00000000-0x00000000" comment="Decke"/>
-							<Item command="17158-0x00000000-0x00000000" comment="Träger"/>
-							<Item command="17165-0x00000000-0x00000000" comment="Dach"/>
-							<Item command="17194-0x00000000-0x00000000" comment="Schale"/>
-							<Item command="17196-0x00000000-0x00000000" comment="Morph"/>
-							<Item command="17223-0x00000000-0x00000000" comment="Öffnung"/>
-							<Item command="17159-0x00000000-0x00000000" comment="Fenster"/>
-							<Item command="17159-0x47732f64-0x4d49133e" comment="Eckfenster"/>
-							<Item command="17195-0x00000000-0x00000000" comment="Dachfenster"/>
-							<Item command="17160-0x00000000-0x00000000" comment="Tür"/>
-							<Item command="17188-0x00000000-0x00000000" comment="Fassade"/>
-							<Item command="17193-0x00000000-0x00000000" comment="Schema"/>
-							<Item command="17189-0x00000000-0x00000000" comment="Profil"/>
-							<Item command="17190-0x00000000-0x00000000" comment="Paneel"/>
-							<Item command="17191-0x00000000-0x00000000" comment="Halterung"/>
-							<Item command="17192-0x00000000-0x00000000" comment="Zubehör"/>
-							<Item command="17161-0x00000000-0x00000000" comment="Objekt"/>
-							<Item command="17198-0x00000000-0x00000000" comment="Treppen"/>
-							<Item command="17202-0x00000000-0x00000000" comment="Geländer"/>
-							<Item command="17162-0x00000000-0x00000000" comment="Lichtquelle"/>
-							<Item command="17173-0x00000000-0x00000000" comment="Raum"/>
-							<Item command="17166-0x00000000-0x00000000" comment="Freifläche"/>
-							<Item command="17161-0x47732f64-0x3f307734" comment="Rasterelement"/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu75" title="Planungshilfen">
-							<Item command="18955-0x00000000-0x00000000" comment="Schwerkraft"/>
-							<Item command="18959-0x00000000-0x00000000" comment="Schwerkraft auf Dach"/>
-							<Item command="18956-0x00000000-0x00000000" comment="Schwerkraft auf Decke"/>
-							<Item command="18958-0x00000000-0x00000000" comment="Schwerkraft auf Freifläche"/>
-							<Item command="18974-0x00000000-0x00000000" comment="Schwerkraft auf Schale"/>
-							<Separator/>
-							<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
-							<Item command="18968-0x00000000-0x00000000" comment="Maß"/>
-							<Separator/>
-							<Item command="16949-0x00000000-0x00000000" comment="Einschränkung auf Lotrecht"/>
-							<Item command="16948-0x00000000-0x00000000" comment="Einschränkung auf Parallel"/>
-							<Item command="16920-0x00000000-0x00000000" comment="Fangpunktbeschränkungen"/>
-							<Item command="16918-0x00000000-0x00000000" comment="Einschränkung auf Winkelhalbierende"/>
-							<Item command="16950-0x00000000-0x00000000" comment="Einschränkung auf Zur Oberfläche ausrichten"/>
-							<Item command="16919-0x00000000-0x00000000" comment="Versatz/Mehrfacher Versatz"/>
-						</Menu>
-					</PopupItem>
-					<Separator/>
-					<Item command="6401-0x00000000-0x00000000" comment="&amp;Geschoss-Einstellungen..."/>
-					<Item command="6412-0x00000000-0x00000000" comment="&amp;Elemente nach Geschossen bearbeiten..."/>
-					<Item command="6408-0x00000000-0x00000000" comment="Geschosshöhen bearbeiten"/>
-					<Item command="13988-0x00000000-0x00000000" comment="Schnitt/Ansichtsbereich"/>
-					<Separator/>
-					<PopupItem>
-						<Menu ID="Menu76" iconID="24552" title="Verbinden">
-							<Item command="836-0x00000000-0x00000000" comment="Elemente mit Dach/Schale trimmen"/>
-							<Item command="856-0x00000000-0x00000000" comment="Elemente verschmelzen"/>
-							<Item command="10258-0x00000000-0x00000000" comment="Trimm-Körper"/>
-							<Separator/>
-							<Item command="810-0x00000000-0x00000000" comment="Wände mit Fassade verbinden..."/>
-							<Separator/>
-							<Item command="837-0x00000000-0x00000000" comment="Alle Verbindungen löschen"/>
-						</Menu>
-					</PopupItem>
-					<Item command="795-0x00000000-0x00000000" comment="Solid Element-&amp;Befehle..."/>
-					<Separator/>
-					<Item command="1302-0x00000000-0x00000000" comment="Zauberstab"/>
-					<Item command="1288-0x00000000-0x00000000" comment="&amp;Zauberstab-Einstellungen..."/>
-					<Separator/>
-					<Item command="26625-0x00000000-0x00000000" comment="System-Bearbeitungsmodus aufrufen"/>
-					<Separator/>
-					<PopupItem>
-						<Menu ID="Menu77" title="Geländer">
-							<Item command="29700-0x00000000-0x00000000" comment="Unabhängige Segmente und Knoten erstellen"/>
-							<Item command="29701-0x00000000-0x00000000" comment="Muster in Segmentlänge umwandeln"/>
-							<Item command="29702-0x00000000-0x00000000" comment="Geländer an der Referenzlinie spiegeln"/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu78" title="Fassade">
-							<Item command="26629-0x00000000-0x00000000" comment="Zellen-Muster kopieren"/>
-							<Separator/>
-							<Item command="26632-0x00000000-0x00000000" comment="Fassade splitten"/>
-							<Item command="26631-0x00000000-0x00000000" comment="Verbindungsprofil erstellen..."/>
-							<Item command="810-0x00000000-0x00000000" comment="Wände mit Fassade verbinden..."/>
-							<Separator/>
-							<Item command="1312-0x00000000-0x00000000" comment="Komponenten ausgewählter Elemente etikettieren"/>
-							<Separator/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu79" title="Schale">
-							<Item command="839-0x00000000-0x00000000" comment="Schalen-Kontur definieren"/>
-							<Item command="840-0x00000000-0x00000000" comment="Loch in Schale erstellen"/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu80" title="Öffnungen">
-							<Item command="866-0x00000000-0x00000000" comment="Öffnung in ein weiteres Element schneiden"/>
-							<Item command="5911-0x00000000-0x00000000" comment="Öffnungen aus Auswahl erstellen..."/>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu81" title="Dach Extras">
-							<Item command="792-0x00000000-0x00000000" comment="Mit Einzel-Dach beschneiden..."/>
-							<Item command="793-0x00000000-0x00000000" comment="Raum &amp;beschneiden..."/>
-							<Item command="862-0x00000000-0x00000000" comment="&amp;Alle Verschneidungen aufheben"/>
-							<Separator/>
-							<Item command="841-0x00000000-0x00000000" comment="In Einzel-Dachflächen zerlegen..."/>
-							<Item command="7173-0x00000000-0x00000000" comment="&amp;Dach-Höhenlinien erstellen..."/>
-							<Separator/>
-							<PopupItem>
-								<Menu ID="Menu82" title="RoofMaker">
-									<Item command="2129920001-0x47732f64-0x64eb59a4" comment="Sparren erstellen..."/>
-									<Item command="2129920002-0x47732f64-0x64eb59a4" comment="Sparrenlage erstellen..."/>
-									<Item command="2129920003-0x47732f64-0x64eb59a4" comment="Gratsparren erstellen..."/>
-									<Item command="2129920004-0x47732f64-0x64eb59a4" comment="Wechsel erstellen..."/>
-									<Item command="2129920005-0x47732f64-0x64eb59a4" comment="Pfette erstellen..."/>
-									<Item command="2129920006-0x47732f64-0x64eb59a4" comment="Fußpfette erstellen..."/>
-									<Item command="2129920007-0x47732f64-0x64eb59a4" comment="Zugband erstellen..."/>
-									<Item command="2129920008-0x47732f64-0x64eb59a4" comment="Kehlbalken erstellen..."/>
-									<Item command="2129920009-0x47732f64-0x64eb59a4" comment="Dachstuhlassistent..."/>
-									<Separator/>
-									<Item command="2129920011-0x47732f64-0x64eb59a4" comment="RoofMaker Werkzeuge zeigen"/>
-								</Menu>
-							</PopupItem>
-						</Menu>
-					</PopupItem>
-					<PopupItem>
-						<Menu ID="Menu83" title="Morph ändern">
-							<Item command="1307-0x00000000-0x00000000" comment="Solidität überprüfen"/>
-							<Item command="1308-0x00000000-0x00000000" comment="Mit Flächen bedecken..."/>
-							<Separator/>
-							<Item command="845-0x00000000-0x00000000" comment="Vereinen"/>
-							<Item command="846-0x00000000-0x00000000" comment="Abziehen..."/>
-							<Item command="847-0x00000000-0x00000000" comment="Verschneiden"/>
-							<Separator/>
-							<Item command="843-0x00000000-0x00000000" comment="Kanten ausrunden &amp;&amp; vereinigen"/>
-							<Item command="848-0x00000000-0x00000000" comment="Flächen glätten &amp;&amp; vereinigen..."/>
-							<Separator/>
-							<Item command="1309-0x00000000-0x00000000" comment="Segmentierung verändern..."/>
-							<Item command="844-0x00000000-0x00000000" comment="Morph-Flächen verschneiden"/>
-							<Item command="10259-0x00000000-0x00000000" comment="Verborgene Morph-Geometrie anzeigen"/>
-						</Menu>
-					</PopupItem>
-					<Item command="1305-0x00000000-0x00000000" comment="Auswahl in Morphs konvertieren..."/>
-					<Item command="2129920001-0x47732f64-0x3f307734" comment="Rastersystem..."/>
-					<Separator/>
-					<PopupItem>
-						<Menu ID="Menu84" title="Planung Extras">
-							<Separator/>
-							<PopupItem>
-								<Menu ID="Menu85" title="TrussMaker">
-									<Item command="2129920001-0x47732f64-0x8aa63b15" comment="Fachwerk erstellen..."/>
-									<Item command="2129920002-0x47732f64-0x8aa63b15" comment="Fachwerk bearbeiten..."/>
-								</Menu>
-							</PopupItem>
-							<Separator/>
-							<Separator/>
-							<Separator/>
-							<Item command="16641-0x00000000-0x00000000" comment="Add-On Befehle im Planung/Planung Extras-Untermenü."/>
-						</Menu>
-					</PopupItem>
-					<Separator/>
-					<Item command="864-0x00000000-0x00000000" comment="Kollisionserkennung..."/>
-					<Item command="1292-0x00000000-0x00000000" comment="Räume a&amp;ktualisieren..."/>
-					<Item command="2850-0x00000000-0x00000000" comment="(Empty)"/>
-					<PopupItem>
-						<Menu ID="Menu86" iconID="9899" title="Energiebewertung">
-							<Item command="2129985537-0x47732f64-0x4a819ae7" comment="Energiemodell-Überprüfung"/>
-							<Separator/>
-							<Item command="1558-0x00000000-0x00000000" comment="Nutzungsprofile..."/>
-							<Separator/>
-							<Item command="2130182145-0x47732f64-0x4a819ae7" comment="Umgebungseinstellungen..."/>
-							<Item command="2130247681-0x47732f64-0x4a819ae7" comment="Klimadaten..."/>
-							<Separator/>
-							<Item command="2130313217-0x47732f64-0x4a819ae7" comment="Gebäudetechnik..."/>
-							<Item command="2130378753-0x47732f64-0x4a819ae7" comment="Energiequellen-Faktoren..."/>
-							<Item command="2130444289-0x47732f64-0x4a819ae7" comment="Energiekosten..."/>
-							<Separator/>
-							<Item command="1474625537-0x47732f64-0x4a819ae7" comment="Wärmebrückensimulation..."/>
-							<Item command="2130509825-0x47732f64-0x4a819ae7" comment="(Empty)"/>
-							<Item command="2130575361-0x47732f64-0x4a819ae7" comment="(Empty)"/>
-							<Separator/>
-							<Item command="1474691073-0x47732f64-0x4a819ae7" comment="Optionen für die Energiesimulation..."/>
-						</Menu>
-					</PopupItem>
-				</Menu>
-				<Menu ID="Menu87" title="&amp;Dokumentation">
-					<PopupItem>
-						<Menu ID="Menu88" title="Dokumentationswerkzeuge">
+						<Menu ID="Menu93" title="Dokumentationswerkzeuge">
 							<Item command="17167-0x00000000-0x00000000" comment="Bemaßung"/>
 							<Item command="17168-0x00000000-0x00000000" comment="Radialbemaßung"/>
 							<Item command="17169-0x00000000-0x00000000" comment="Höhenbemaßung"/>
@@ -1054,7 +1103,7 @@
 						<Menu IDREF="Menu7"/>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu89" title="Grafische Überschreibung">
+						<Menu ID="Menu94" title="Grafische Überschreibung">
 							<Item command="1564-0x00000000-0x00000000" comment="Grafische Überschreibungen..."/>
 							<Separator/>
 							<Item command="23040-0x00000000-0x00000000" comment="Keine grafischen Überschreibungen"/>
@@ -1065,12 +1114,12 @@
 					<PopupItem>
 						<Menu IDREF="Menu39"/>
 					</PopupItem>
-					<Separator/>
 					<Item command="6407-0x00000000-0x00000000" comment="Grundriss-Schnittebene..."/>
+					<Separator/>
 					<Item command="5898-0x00000000-0x00000000" comment="M&amp;arker-Werkzeuge"/>
 					<Item command="5909-0x00000000-0x00000000" comment="Änderungsmanager"/>
 					<PopupItem>
-						<Menu ID="Menu90" title="Beschriftung">
+						<Menu ID="Menu95" title="Beschriftung">
 							<Item command="1303-0x00000000-0x00000000" comment="Alle Bemaßungstexte auf automatische Position zurückstellen"/>
 							<Item command="1304-0x00000000-0x00000000" comment="Alle individuellen Texte auf gemessene Werte zurückstellen"/>
 							<Separator/>
@@ -1083,7 +1132,7 @@
 							<Separator/>
 							<Item command="1289-0x00000000-0x00000000" comment="&amp;Tekturblatt erstellen..."/>
 							<PopupItem>
-								<Menu ID="Menu91" title="Rechtschreibung">
+								<Menu ID="Menu96" title="Rechtschreibung">
 									<Item command="2129920001-0x47732f64-0x2c7024f3" comment="Rechtschreibung öffnen"/>
 									<Item command="2129920002-0x47732f64-0x2c7024f3" comment="Finden &amp;&amp; Sichern Fehler in bearbeitbaren Elementen"/>
 									<Item command="2129920003-0x47732f64-0x2c7024f3" comment="Finden &amp;&amp; Sichern Fehler in allen Elementen"/>
@@ -1093,7 +1142,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu92" title="Rendering, Animation etc.">
+						<Menu ID="Menu97" title="Rendering, Animation etc.">
 							<Item command="1799-0x00000000-0x00000000" comment="P&amp;hotorealistische Darstellung"/>
 							<Item command="1824-0x00000000-0x00000000" comment="Markierungsrahmenbereich rendern"/>
 							<Item command="1825-0x00000000-0x00000000" comment="Markierungsrahmenbereich rendern &amp;&amp; beschneiden"/>
@@ -1102,7 +1151,7 @@
 							<Item command="15111-0x00000000-0x00000000" comment="&amp;Render-Schutzbereich anwenden"/>
 							<Item command="859-0x00000000-0x00000000" comment="Oberflächen-Katalog"/>
 							<PopupItem>
-								<Menu ID="Menu93" title="3D-Textur ausrichten">
+								<Menu ID="Menu98" title="3D-Textur ausrichten">
 									<Item command="9729-0x00000000-0x00000000" comment="&amp;Ursprung bestimmen"/>
 									<Item command="9730-0x00000000-0x00000000" comment="&amp;Richtung einstellen..."/>
 									<Separator/>
@@ -1119,17 +1168,17 @@
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu94" title="Interaktive Auswertungen">
+						<Menu ID="Menu99" title="Interaktive Auswertungen">
 							<Item command="2129920001-0x47732f64-0x74913216" comment="Schema-Einstellungen..."/>
 							<Separator/>
 							<Item command="17924-0x00000000-0x00000000" comment="Keine Auswertung in der Liste"/>
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu95" title="Listen &amp;&amp; Berechnungen">
+						<Menu ID="Menu100" title="Listen &amp;&amp; Berechnungen">
 							<Item command="2129920001-0x47732f64-0xb6d04d13" comment="Flächenberechnung..."/>
 							<PopupItem>
-								<Menu ID="Menu96" title="Wohnungsstempel">
+								<Menu ID="Menu101" title="Wohnungsstempel">
 									<Item command="2129920001-0x47732f64-0x97849b30" comment="Wohnungsstempel platzieren..."/>
 									<Item command="2129920002-0x47732f64-0x97849b30" comment="Wohnungsstempel aktualisieren"/>
 									<Item command="2129920003-0x47732f64-0x97849b30" comment="Wohnungsstempel löschen"/>
@@ -1139,30 +1188,30 @@
 							<Item command="2129920001-0x47732f64-0x8f882e3b" comment="Element-ID-Manager..."/>
 							<Separator/>
 							<PopupItem>
-								<Menu ID="Menu97" title="Suchen nach Eigenschaftenobjekte">
+								<Menu ID="Menu102" title="Suchen nach Eigenschaftenobjekte">
 									<Item command="2129920001-0x47732f64-0x7e551862" comment="Eigenschafts-Objekte..."/>
 									<Item command="2129920002-0x47732f64-0x7e551862" comment="Elemente..."/>
 								</Menu>
 							</PopupItem>
 							<Separator/>
 							<PopupItem>
-								<Menu ID="Menu98" title="&amp;Altsystem">
+								<Menu ID="Menu103" title="&amp;Altsystem">
 									<PopupItem>
-										<Menu ID="Menu99" title="&amp;Elementlisten">
+										<Menu ID="Menu104" title="&amp;Elementlisten">
 											<Item command="8705-0x00000000-0x00000000" comment="&amp;Einfach"/>
 											<Separator/>
 											<Item command="8706-0x00000000-0x00000000" comment="Keine Elementlisten"/>
 										</Menu>
 									</PopupItem>
 									<PopupItem>
-										<Menu ID="Menu100" title="&amp;Bestandteillisten">
+										<Menu ID="Menu105" title="&amp;Bestandteillisten">
 											<Item command="8961-0x00000000-0x00000000" comment="&amp;Einfach"/>
 											<Separator/>
 											<Item command="8962-0x00000000-0x00000000" comment="Keine Bestandteillisten"/>
 										</Menu>
 									</PopupItem>
 									<PopupItem>
-										<Menu ID="Menu101" title="&amp;Raumflächenlisten">
+										<Menu ID="Menu106" title="&amp;Raumflächenlisten">
 											<Item command="9217-0x00000000-0x00000000" comment="&amp;Einfach"/>
 											<Separator/>
 											<Item command="9218-0x00000000-0x00000000" comment="Keine Raumflächenlisten"/>
@@ -1174,7 +1223,7 @@
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu102" title="Projektinhalte">
+						<Menu ID="Menu107" title="Projektinhalte">
 							<Item command="2130051073-0x47732f64-0x74913216" comment="Projektinhalt-Einstellungen..."/>
 							<Separator/>
 							<Item command="17923-0x00000000-0x00000000" comment="Kein Inhalt in der Liste"/>
@@ -1184,7 +1233,7 @@
 						<Menu IDREF="Menu16"/>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu103" title="Zeichnungen">
+						<Menu ID="Menu108" title="Zeichnungen">
 							<Item command="10001-0x00000000-0x00000000" comment="Ursprünglichen Ausschnitt öffnen"/>
 							<Item command="10021-0x00000000-0x00000000" comment="&amp;Als Quell-Marker festlegen"/>
 							<Item command="10007-0x00000000-0x00000000" comment="Quell-Ausschnitt-Einstellungen bearbeiten..."/>
@@ -1201,14 +1250,24 @@
 					<Separator/>
 					<Item command="14593-0x00000000-0x00000000" comment="&amp;Publisher..."/>
 				</Menu>
-				<Menu ID="Menu104" title="&amp;Optionen">
-					<PopupItem>
-						<Menu IDREF="Menu8"/>
-					</PopupItem>
+				<Menu ID="Menu109" title="&amp;Optionen">
+					<Item command="6657-0x00000000-0x00000000" comment="&amp;Ebenen (Modelldarstellung)..."/>
+					<Item command="1542-0x00000000-0x00000000" comment="Stifte &amp; Farben (Modell)..."/>
+					<Item command="1543-0x00000000-0x00000000" comment="&amp;Linien..."/>
+					<Item command="1544-0x00000000-0x00000000" comment="&amp;Schraffuren..."/>
+					<Item command="1546-0x00000000-0x00000000" comment="&amp;Oberflächenmaterialien..."/>
+					<Item command="1561-0x00000000-0x00000000" comment="Baustoffe..."/>
+					<Item command="1545-0x00000000-0x00000000" comment="Mehrschichtige &amp;Bauteile..."/>
+					<Item command="1553-0x00000000-0x00000000" comment="Profil-Manager..."/>
+					<Item command="1547-0x00000000-0x00000000" comment="Ra&amp;umkategorien..."/>
+					<Item command="1548-0x00000000-0x00000000" comment="Projektmarker S&amp;tile..."/>
+					<Item command="1558-0x00000000-0x00000000" comment="Nutzungsprofile..."/>
+					<Item command="1566-0x00000000-0x00000000" comment="Attribute-Manager..."/>
+					<Separator/>
 					<Item command="1562-0x00000000-0x00000000" comment="Eigenschaften-Manager..."/>
 					<Item command="1565-0x00000000-0x00000000" comment="Klassifizierungs-Manager..."/>
 					<PopupItem>
-						<Menu ID="Menu105" title="Profile">
+						<Menu ID="Menu110" title="Profile">
 							<Item command="1553-0x00000000-0x00000000" comment="Profil-Manager..."/>
 							<Item command="804-0x00000000-0x00000000" comment="Ausgewähltes Profil übernehmen"/>
 							<Item command="2129920001-0x47732f64-0xd25486a0" comment="Standard Stahlprofile importieren..."/>
@@ -1219,7 +1278,10 @@
 						</Menu>
 					</PopupItem>
 					<Separator/>
-					<Item command="1295-0x00000000-0x00000000" comment="Automatische Verschneidung"/>
+					<Item command="1302-0x00000000-0x00000000" comment="Zauberstab"/>
+					<Item command="1288-0x00000000-0x00000000" comment="&amp;Zauberstab-Einstellungen..."/>
+					<Separator/>
+					<Item command="2129920001-0x47732f64-0xc12170c7" comment="Verschneidungen in Ebenenkombinationen"/>
 					<Item command="1549-0x00000000-0x00000000" comment="Add-On Befehle im Optionen-Menü."/>
 					<Separator/>
 					<Item command="1293-0x00000000-0x00000000" comment="Add-On-&amp;Manager..."/>
@@ -1228,10 +1290,10 @@
 						<Menu IDREF="Menu27"/>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu106" title="Arbeitsumgebung">
+						<Menu ID="Menu111" title="Arbeitsumgebung">
 							<Item command="7682-0x00000000-0x00000000" comment="&amp;Arbeitsumgebung..."/>
 							<PopupItem>
-								<Menu ID="Menu107" title="Profil anwenden">
+								<Menu ID="Menu112" title="Profil anwenden">
 									<Item command="2841-0x00000000-0x00000000" comment="Keine Arbeitsumgebungsprofile"/>
 								</Menu>
 							</PopupItem>
@@ -1265,70 +1327,70 @@
 					</PopupItem>
 				</Menu>
 				<Menu IDREF="Menu19"/>
-				<Menu ID="Menu108" title="&amp;Fenster">
+				<Menu ID="Menu113" title="&amp;Fenster">
 					<PopupItem>
-						<Menu ID="Menu109" title="Navigation">
+						<Menu ID="Menu114" title="Navigation">
 							<PopupItem>
 								<Menu IDREF="Menu9"/>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu110" title="Schnitte">
+								<Menu ID="Menu115" title="Schnitte">
 									<Item command="10755-0x00000000-0x00000000" comment="Letzte Schnitte"/>
 									<Separator/>
 									<Item command="10753-0x00000000-0x00000000" comment="Schnitt öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu111" title="Ansichten">
+								<Menu ID="Menu116" title="Ansichten">
 									<Item command="20995-0x00000000-0x00000000" comment="Letzte Ansichten"/>
 									<Separator/>
 									<Item command="20993-0x00000000-0x00000000" comment="Ansicht öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu112" title="Innenansichten">
+								<Menu ID="Menu117" title="Innenansichten">
 									<Item command="21251-0x00000000-0x00000000" comment="Letzte Innenansichten"/>
 									<Separator/>
 									<Item command="21249-0x00000000-0x00000000" comment="Innenansicht öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu113" title="Arbeitsblätter">
+								<Menu ID="Menu118" title="Arbeitsblätter">
 									<Item command="21507-0x00000000-0x00000000" comment="Letzte Arbeitsblätter"/>
 									<Separator/>
 									<Item command="21505-0x00000000-0x00000000" comment="Arbeitsblätter öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu114" title="Details">
+								<Menu ID="Menu119" title="Details">
 									<Item command="12035-0x00000000-0x00000000" comment="Letzte Details"/>
 									<Separator/>
 									<Item command="12033-0x00000000-0x00000000" comment="Detailzeichnung öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu115" title="3D-Dokumente">
+								<Menu ID="Menu120" title="3D-Dokumente">
 									<Item command="22019-0x00000000-0x00000000" comment="Letztes 3D-Dokument"/>
 									<Separator/>
 									<Item command="22017-0x00000000-0x00000000" comment="3D-Dokumente öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu116" title="3D">
+								<Menu ID="Menu121" title="3D">
 									<Item command="18697-0x00000000-0x00000000" comment="Perspektive"/>
 									<Item command="18698-0x00000000-0x00000000" comment="Axonometrie"/>
 								</Menu>
 							</PopupItem>
 							<Separator/>
 							<PopupItem>
-								<Menu ID="Menu117" title="Auswertungen">
+								<Menu ID="Menu122" title="Auswertungen">
 									<Item command="11523-0x00000000-0x00000000" comment="Letzte Auswertungen"/>
 									<Separator/>
 									<Item command="11521-0x00000000-0x00000000" comment="Liste öffnen..."/>
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu118" title="Projektinhalte">
+								<Menu ID="Menu123" title="Projektinhalte">
 									<Item command="11779-0x00000000-0x00000000" comment="Letzte Projektinhalte"/>
 									<Separator/>
 									<Item command="11777-0x00000000-0x00000000" comment="Projektinhalt öffnen..."/>
@@ -1336,17 +1398,17 @@
 							</PopupItem>
 							<Separator/>
 							<PopupItem>
-								<Menu IDREF="Menu99"/>
+								<Menu IDREF="Menu104"/>
 							</PopupItem>
 							<PopupItem>
-								<Menu IDREF="Menu100"/>
+								<Menu IDREF="Menu105"/>
 							</PopupItem>
 							<PopupItem>
-								<Menu IDREF="Menu101"/>
+								<Menu IDREF="Menu106"/>
 							</PopupItem>
 							<Separator/>
 							<PopupItem>
-								<Menu ID="Menu119" title="Layouts">
+								<Menu ID="Menu124" title="Layouts">
 									<Item command="11011-0x00000000-0x00000000" comment="Letzte Layouts"/>
 									<Separator/>
 									<Item command="20740-0x00000000-0x00000000" comment="Gehe zum ersten Layout"/>
@@ -1358,7 +1420,7 @@
 								</Menu>
 							</PopupItem>
 							<PopupItem>
-								<Menu ID="Menu120" title="Masterlayout">
+								<Menu ID="Menu125" title="Masterlayout">
 									<Item command="11267-0x00000000-0x00000000" comment="Letzte Masterlayouts"/>
 									<Separator/>
 									<Item command="11265-0x00000000-0x00000000" comment="Masterlayout öffnen..."/>
@@ -1378,14 +1440,14 @@
 					<Separator/>
 					<Item command="2572-0x00000000-0x00000000" comment="Paletten und Werkzeugleisten verbergen"/>
 					<PopupItem>
-						<Menu ID="Menu121" title="Symbolleisten">
+						<Menu ID="Menu126" title="Symbolleisten">
 							<Item command="2817-0x00000000-0x00000000" comment="Keine Symbolleisten"/>
 							<Separator/>
 							<Item command="7698-0x00000000-0x00000000" comment="Symbolleisten..."/>
 						</Menu>
 					</PopupItem>
 					<PopupItem>
-						<Menu ID="Menu122" title="&amp;Paletten">
+						<Menu ID="Menu127" title="&amp;Paletten">
 							<Item command="5889-0x00000000-0x00000000" comment="Sichtbar nur &amp;Haupt-Paletten"/>
 							<Separator/>
 							<Item command="5890-0x00000000-0x00000000" comment="&amp;Werkzeugkasten"/>
@@ -1415,6 +1477,7 @@
 							<Item command="5911-0x00000000-0x00000000" comment="Öffnungen aus Auswahl erstellen..."/>
 							<Separator/>
 							<Item command="2129920001-0x47732f64-0x07b54282" comment="Element-Information"/>
+							<Item command="2129920001-0x47732f64-0xa148817c" comment="Polygonzähler"/>
 							<Item command="5900-0x00000000-0x00000000" comment="&amp;Bibliothek laden-Protokoll"/>
 							<Item command="2129920001-0x47732f64-0x32521719" comment="Auswahlsets"/>
 							<Item command="5891-0x00000000-0x00000000" comment="&amp;Koordinaten"/>
@@ -1422,6 +1485,8 @@
 							<Item command="2129985537-0x47732f64-0x38c147a6" comment="Ebenen-Umschalter"/>
 							<Item command="2129985537-0x47732f64-0x08427fea" comment="(Empty)"/>
 							<Item command="5910-0x00000000-0x00000000" comment="-"/>
+							<Item command="2129985537-0x47732f64-0xad99a42f" comment="Grasshopper Connection..."/>
+							<Item command="217710593-0x2a456d4c-0x00e97dca" comment="Twinmotion 2020 Direct Link"/>
 							<Item command="5901-0x00000000-0x00000000" comment="Add-On Befehle im Paletten-Untermenü."/>
 						</Menu>
 					</PopupItem>
@@ -1457,19 +1522,36 @@
 					<Separator/>
 					<Item command="2856-0x00000000-0x00000000" comment="Aktions-Center öffnen"/>
 				</Menu>
-				<Menu ID="Menu123" title="&amp;Hilfe">
+				<Menu ID="Menu128" title="ArchiCARD">
+					<PopupItem>
+						<Menu ID="Menu129" title="Schwarzplan">
+							<Item command="2129985537-0x38735147-0xc8e858ce" comment="Schwarzplan-Palette"/>
+							<Item command="2129985538-0x38735147-0xc8e858ce" comment="Schwarzplan Hilfe"/>
+						</Menu>
+					</PopupItem>
+				</Menu>
+				<Menu ID="Menu130" title="Twinmotion 2020">
+					<Item command="218300417-0x2a456d4c-0x00e97dca" comment="Direct Link"/>
+					<Item command="218365953-0x2a456d4c-0x00e97dca" comment="Einstellungen..."/>
+					<Item command="218431489-0x2a456d4c-0x00e97dca" comment="Onlinehilfe..."/>
+					<Item command="218497025-0x2a456d4c-0x00e97dca" comment="Palette ausblenden"/>
+					<Separator/>
+					<Item command="218562561-0x2a456d4c-0x00e97dca" comment="Auf Aktualisierung prüfen..."/>
+					<Item command="218628097-0x2a456d4c-0x00e97dca" comment="Über..."/>
+				</Menu>
+				<Menu ID="Menu131" title="&amp;Hilfe">
 					<Item command="3334-0x00000000-0x00000000" comment="ARCHICAD Hilfe"/>
 					<Item command="3329-0x00000000-0x00000000" comment="Hilfetexte ausblenden"/>
 					<Separator/>
 					<Item command="3331-0x00000000-0x00000000" comment="Keine Hilfe Dateien"/>
 					<PopupItem>
-						<Menu ID="Menu124" iconID="12722" title="Handbücher">
+						<Menu ID="Menu132" iconID="12722" title="Handbücher">
 							<Item command="3332-0x00000000-0x00000000" comment="Keine PDF Dateien"/>
 						</Menu>
 					</PopupItem>
 					<Separator/>
 					<PopupItem>
-						<Menu ID="Menu125" iconID="12692" title="Links">
+						<Menu ID="Menu133" iconID="12692" title="Links">
 							<Item command="3333-0x00000000-0x00000000" comment="Keine URLs"/>
 						</Menu>
 					</PopupItem>
@@ -1485,15 +1567,15 @@
 					<Item command="3341-0x00000000-0x00000000" comment="Lizenzinformation..."/>
 					<Item command="3350-0x00000000-0x00000000" comment="Software Key hochladen"/>
 					<Separator/>
-					<Item command="3348-0x00000000-0x00000000" comment="GRAPHISOFT ID: Lucas Becker"/>
-					<Item command="3349-0x00000000-0x00000000" comment="Abmelden"/>
+					<Item command="3348-0x00000000-0x00000000" comment="GRAPHISOFT ID"/>
+					<Item command="3349-0x00000000-0x00000000" comment="Anmelden..."/>
 					<Separator/>
 					<Item command="3330-0x00000000-0x00000000" comment="Über &amp;ARCHICAD®..."/>
 				</Menu>
 			</MenuBar>
 			<MenuBar ID="MenuBar2" menubarguid="2CAC215F-221C-420F-AAEB-8462A659B8D9" name="Text">
-				<Menu IDREF="Menu42"/>
-				<Menu ID="Menu126" title="&amp;Bearbeiten">
+				<Menu IDREF="Menu47"/>
+				<Menu ID="Menu134" title="&amp;Bearbeiten">
 					<Item command="1025-0x00000000-0x00000000" comment="Wider&amp;rufen"/>
 					<Item command="1026-0x00000000-0x00000000" comment="Wiederaus&amp;führen"/>
 					<Item command="1027-0x00000000-0x00000000" comment="Letzten Befehl &amp;wiederholen"/>
@@ -1526,13 +1608,15 @@
 					<Item command="2829-0x00000000-0x00000000" comment="Session-Protokoll"/>
 					<Item command="1044-0x00000000-0x00000000" comment="&amp;GDL-Debugger öffnen..."/>
 				</Menu>
-				<Menu IDREF="Menu64"/>
-				<Menu IDREF="Menu73"/>
-				<Menu IDREF="Menu87"/>
-				<Menu IDREF="Menu104"/>
+				<Menu IDREF="Menu83"/>
+				<Menu IDREF="Menu67"/>
+				<Menu IDREF="Menu92"/>
+				<Menu IDREF="Menu109"/>
 				<Menu IDREF="Menu19"/>
-				<Menu IDREF="Menu108"/>
-				<Menu IDREF="Menu123"/>
+				<Menu IDREF="Menu113"/>
+				<Menu IDREF="Menu128"/>
+				<Menu IDREF="Menu130"/>
+				<Menu IDREF="Menu131"/>
 			</MenuBar>
 			<ToolBar ID="ToolBar1" mode="ShowIcon" title="GDL-Bibliothekselement bearbeiten" toolbarid="FC108CB0-A03E-402D-BDEA-1D9BA83C96E7">
 				<Item command="523-0x00000000-0x00000000" comment="Bibliothe&amp;kenmanager..."/>
@@ -1547,7 +1631,7 @@
 				</PopupItem>
 				<Item command="14339-0x00000000-0x00000000" comment="Objekt öffnen mit &amp;Subtype..."/>
 				<PopupItem>
-					<Menu IDREF="Menu51"/>
+					<Menu IDREF="Menu55"/>
 				</PopupItem>
 				<Item command="539-0x00000000-0x00000000" comment="Objekt teilen..."/>
 				<Separator/>
@@ -1590,7 +1674,7 @@
 				<Separator/>
 				<Item command="1797-0x00000000-0x00000000" comment="&amp;3D-Stile..."/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu127" iconID="24134" title="3D-Stile...">
+					<Menu ID="Menu135" iconID="24134" title="3D-Stile...">
 						<Item command="1797-0x00000000-0x00000000" comment="&amp;3D-Stile..."/>
 						<Separator/>
 						<Item command="1827-0x00000000-0x00000000" comment="Liste der 3D-Stile"/>
@@ -1609,7 +1693,7 @@
 				<Separator/>
 				<Item command="1799-0x00000000-0x00000000" comment="P&amp;hotorealistische Darstellung"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu128" title="Bereich Render">
+					<Menu ID="Menu136" title="Bereich Render">
 						<Item command="1824-0x00000000-0x00000000" comment="Markierungsrahmenbereich rendern"/>
 						<Item command="1825-0x00000000-0x00000000" comment="Markierungsrahmenbereich rendern &amp;&amp; beschneiden"/>
 					</Menu>
@@ -1706,7 +1790,7 @@
 				<Item command="18700-0x00000000-0x00000000" comment="Horizontale Sicht"/>
 			</ToolBar>
 			<ToolBar ID="ToolBar7" mode="ShowIcon" title="Elemente bearbeiten" toolbarid="D9AA2072-37CE-40D5-8732-E2FFEA7E386B">
-				<Item command="776-0x00000000-0x00000000" comment="Alle Wände aktiviere&amp;n"/>
+				<Item command="776-0x00000000-0x00000000" comment="Alle Elemente aktiviere&amp;n"/>
 				<Item command="2567-0x00000000-0x00000000" comment="Auf Aus&amp;wahl zoomen"/>
 				<Item command="796-0x00000000-0x00000000" comment="Aktivierte Elemente &amp;ändern..."/>
 				<Separator/>
@@ -1730,18 +1814,18 @@
 				<Separator/>
 				<Item command="5127-0x00000000-0x00000000" comment="&amp;Speziell ausrichten"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu58"/>
+					<Menu IDREF="Menu63"/>
 				</PopupItem>
 				<Item command="5380-0x00000000-0x00000000" comment="&amp;Speziell verteilen"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu59"/>
+					<Menu IDREF="Menu64"/>
 				</PopupItem>
 				<Item command="785-0x00000000-0x00000000" comment="Vert&amp;ikal verschieben..."/>
 				<Item command="786-0x00000000-0x00000000" comment="Multipli&amp;zieren..."/>
 				<Separator/>
 				<Item command="1305-0x00000000-0x00000000" comment="Auswahl in Morphs konvertieren..."/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu83"/>
+					<Menu IDREF="Menu77"/>
 				</PopupItem>
 				<Separator/>
 				<Item command="836-0x00000000-0x00000000" comment="Elemente mit Dach/Schale trimmen"/>
@@ -1779,7 +1863,7 @@
 				<Item command="18690-0x00000000-0x00000000" comment="3D Rundgang"/>
 				<Item command="1797-0x00000000-0x00000000" comment="&amp;3D-Stile..."/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu127"/>
+					<Menu IDREF="Menu135"/>
 				</PopupItem>
 			</ToolBar>
 			<ToolBar ID="ToolBar10" title="Layouts und Zeichnungen" toolbarid="2596D39E-A1FC-4E01-A435-AD08F1E2D8B6">
@@ -1841,11 +1925,11 @@
 				</PopupItem>
 				<Item command="10008-0x00000000-0x00000000" comment="Letztes Layout"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu119"/>
+					<Menu IDREF="Menu124"/>
 				</PopupItem>
 				<Separator/>
 				<PopupItem>
-					<Menu ID="Menu129" title="Gehe">
+					<Menu ID="Menu137" title="Gehe">
 						<Item command="2818-0x00000000-0x00000000" comment="Grundriss"/>
 						<Item command="2819-0x00000000-0x00000000" comment="3D-Fenster"/>
 						<Item command="10008-0x00000000-0x00000000" comment="Letztes Layout"/>
@@ -1866,31 +1950,31 @@
 							<Menu IDREF="Menu30"/>
 						</PopupItem>
 						<PopupItem>
-							<Menu IDREF="Menu119"/>
-						</PopupItem>
-						<PopupItem>
-							<Menu IDREF="Menu110"/>
-						</PopupItem>
-						<PopupItem>
-							<Menu IDREF="Menu111"/>
-						</PopupItem>
-						<PopupItem>
-							<Menu IDREF="Menu112"/>
-						</PopupItem>
-						<PopupItem>
-							<Menu IDREF="Menu113"/>
-						</PopupItem>
-						<PopupItem>
-							<Menu IDREF="Menu114"/>
+							<Menu IDREF="Menu124"/>
 						</PopupItem>
 						<PopupItem>
 							<Menu IDREF="Menu115"/>
 						</PopupItem>
 						<PopupItem>
+							<Menu IDREF="Menu116"/>
+						</PopupItem>
+						<PopupItem>
 							<Menu IDREF="Menu117"/>
 						</PopupItem>
 						<PopupItem>
-							<Menu ID="Menu130" title="Projektinhalte">
+							<Menu IDREF="Menu118"/>
+						</PopupItem>
+						<PopupItem>
+							<Menu IDREF="Menu119"/>
+						</PopupItem>
+						<PopupItem>
+							<Menu IDREF="Menu120"/>
+						</PopupItem>
+						<PopupItem>
+							<Menu IDREF="Menu122"/>
+						</PopupItem>
+						<PopupItem>
+							<Menu ID="Menu138" title="Projektinhalte">
 								<Item command="11779-0x00000000-0x00000000" comment="Letzte Projektinhalte"/>
 								<Item command="11777-0x00000000-0x00000000" comment="Projektinhalt öffnen..."/>
 							</Menu>
@@ -1912,7 +1996,7 @@
 				<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
 				<Item command="7937-0x00000000-0x00000000" comment="Hilfslinien"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu67"/>
+					<Menu IDREF="Menu86"/>
 				</PopupItem>
 				<Item command="16971-0x00000000-0x00000000" comment="Fanghilfen und -punkte"/>
 				<PopupItem sticky="yes">
@@ -1924,11 +2008,13 @@
 				</PopupItem>
 				<Item command="1539-0x00000000-0x00000000" comment="R&amp;asterfang"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu131" title="Rasteroptionen - Symbolleiste">
+					<Menu ID="Menu139" title="Rasteroptionen - Symbolleiste">
+						<Item command="1539-0x00000000-0x00000000" comment="R&amp;asterfang"/>
 						<Item command="18965-0x00000000-0x00000000" comment="Am Fangraster einrasten"/>
 						<Item command="18966-0x00000000-0x00000000" comment="Am Konstruktionsraster einrasten"/>
 						<Separator/>
 						<Item command="1540-0x00000000-0x00000000" comment="Konstruktionsraster darstellen"/>
+						<Item command="1538-0x00000000-0x00000000" comment="&amp;Raster-Einstellungen..."/>
 						<Separator/>
 						<Item command="18963-0x00000000-0x00000000" comment="Orthogonales Raster"/>
 						<Item command="18962-0x00000000-0x00000000" comment="Gedrehtes Raster"/>
@@ -1975,7 +2061,7 @@
 				<Separator/>
 				<Item command="1796-0x00000000-0x00000000" comment="3D-Schnitt &amp;ausführen"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu132" title="3D-Schnittebenen - Werkzeugleiste">
+					<Menu ID="Menu140" title="3D-Schnittebenen - Werkzeugleiste">
 						<Item command="19714-0x00000000-0x00000000" comment="Eigene Schnittebene erstellen"/>
 						<Item command="19716-0x00000000-0x00000000" comment="Alle Schnittebenen löschen"/>
 						<Item command="19713-0x00000000-0x00000000" comment="Schnittebenen anzeigen"/>
@@ -1998,7 +2084,7 @@
 				</PopupItem>
 				<Item command="18946-0x00000000-0x00000000" comment="Eingabe-Tracker anzeigen/verbergen"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu133" title="Tracker-Optionen + Schwerkraft">
+					<Menu ID="Menu141" title="Tracker-Optionen + Schwerkraft">
 						<Item command="18947-0x00000000-0x00000000" comment="X-/ Y-Koordinaten anzeigen"/>
 						<Item command="18969-0x00000000-0x00000000" comment="Relative Koordinaten im Tracker"/>
 						<Separator/>
@@ -2018,7 +2104,7 @@
 				</PopupItem>
 				<Item command="1539-0x00000000-0x00000000" comment="R&amp;asterfang"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu134" title="Raster-Optionen-Werkzeugleiste - Geringe Auflösung">
+					<Menu ID="Menu142" title="Raster-Optionen-Werkzeugleiste - Geringe Auflösung">
 						<Item command="18965-0x00000000-0x00000000" comment="Am Fangraster einrasten"/>
 						<Item command="18966-0x00000000-0x00000000" comment="Am Konstruktionsraster einrasten"/>
 						<Separator/>
@@ -2038,7 +2124,7 @@
 				<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
 				<Separator/>
 				<PopupItem>
-					<Menu IDREF="Menu60"/>
+					<Menu IDREF="Menu65"/>
 				</PopupItem>
 				<Item command="1283-0x00000000-0x00000000" comment="Gruppierung aus&amp;setzen"/>
 			</ToolBar>
@@ -2046,7 +2132,7 @@
 				<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
 				<Item command="1539-0x00000000-0x00000000" comment="R&amp;asterfang"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu131"/>
+					<Menu IDREF="Menu139"/>
 				</PopupItem>
 				<Item command="1557-0x00000000-0x00000000" comment="Lineal"/>
 				<Item command="1552-0x00000000-0x00000000" comment="&amp;Elementfang"/>
@@ -2065,7 +2151,7 @@
 				<Item command="16949-0x00000000-0x00000000" comment="Einschränkung auf Lotrecht"/>
 				<Item command="16918-0x00000000-0x00000000" comment="Einschränkung auf Winkelhalbierende"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu135" title="Sonstiges...">
+					<Menu ID="Menu143" title="Sonstiges...">
 						<Item command="16960-0x00000000-0x00000000" comment="Versatz-Einschränkung"/>
 						<Item command="16961-0x00000000-0x00000000" comment="Mehrfach-Versatz-Einschränkung"/>
 						<Item command="16920-0x00000000-0x00000000" comment="Fangpunktbeschränkungen"/>
@@ -2080,7 +2166,7 @@
 				<Separator/>
 				<Item command="16962-0x00000000-0x00000000" comment="Cursorfang lotrechte Variante"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu136" title="Cursorfang-Varianten">
+					<Menu ID="Menu144" title="Cursorfang-Varianten">
 						<Item command="16962-0x00000000-0x00000000" comment="Cursorfang lotrechte Variante"/>
 						<Item command="16963-0x00000000-0x00000000" comment="Cursorfang vertikale Variante"/>
 						<Item command="16964-0x00000000-0x00000000" comment="Cursorfang horizontale Variante"/>
@@ -2089,7 +2175,7 @@
 				<Separator/>
 				<Item command="1811-0x00000000-0x00000000" comment="Ebene aufnehmen"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu137" title="Bearbeitungsebene-Optionen">
+					<Menu ID="Menu145" title="Bearbeitungsebene-Optionen">
 						<Item command="1812-0x00000000-0x00000000" comment="Versatz"/>
 						<Item command="1822-0x00000000-0x00000000" comment="Geschoss fangen..."/>
 						<Item command="1813-0x00000000-0x00000000" comment="Zu letzten Bearbeitungsebene zurückkehren"/>
@@ -2114,7 +2200,7 @@
 				<Item command="2566-0x00000000-0x00000000" comment="&amp;Verschieben"/>
 				<Item command="2568-0x00000000-0x00000000" comment="&amp;Optimieren"/>
 				<PopupItem sticky="yes">
-					<Menu ID="Menu138" title="Zoom - Symbolleiste">
+					<Menu ID="Menu146" title="Zoom - Symbolleiste">
 						<Item command="2567-0x00000000-0x00000000" comment="Auf Aus&amp;wahl zoomen"/>
 						<Item command="2570-0x00000000-0x00000000" comment="Ma&amp;ßstabsgerecht darstellen"/>
 						<Item command="2573-0x00000000-0x00000000" comment="&amp;Hauptzoom"/>
@@ -2226,8 +2312,9 @@
 				<Item command="10264-0x00000000-0x00000000" comment="Öffnung, Schneidekörper"/>
 				<Item command="10265-0x00000000-0x00000000" comment="Öffnung-Referenzebenen"/>
 			</ToolBar>
-			<ToolBar ID="ToolBar23" title="!LUX-23" toolbarid="580BDABC-83BB-44DC-91B7-F97247C102AB">
+			<ToolBar ID="ToolBar23" title="LUX-23" toolbarid="6A1F2368-F541-45B5-9FDA-0AEC5D9BC8CE">
 				<Item command="518-0x00000000-0x00000000" comment="&amp;Sichern"/>
+				<Item command="519-0x00000000-0x00000000" comment="Si&amp;chern als..."/>
 				<Separator/>
 				<Item command="769-0x00000000-0x00000000" comment="Wider&amp;rufen"/>
 				<Item command="770-0x00000000-0x00000000" comment="Wiederaus&amp;führen"/>
@@ -2240,7 +2327,7 @@
 				<Item command="18960-0x00000000-0x00000000" comment="Benutzerursprung setzen"/>
 				<Item command="7937-0x00000000-0x00000000" comment="Hilfslinien"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu67"/>
+					<Menu IDREF="Menu86"/>
 				</PopupItem>
 				<Item command="16971-0x00000000-0x00000000" comment="Fanghilfen und -punkte"/>
 				<PopupItem sticky="yes">
@@ -2250,9 +2337,9 @@
 				<PopupItem sticky="yes">
 					<Menu IDREF="Menu12"/>
 				</PopupItem>
-				<Item command="1539-0x00000000-0x00000000" comment="R&amp;asterfang"/>
+				<Item command="1540-0x00000000-0x00000000" comment="Konstruktionsraster darstellen"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu131"/>
+					<Menu IDREF="Menu139"/>
 				</PopupItem>
 				<Item command="1809-0x00000000-0x00000000" comment="Horizontal"/>
 				<Item command="1810-0x00000000-0x00000000" comment="Vertikal"/>
@@ -2264,64 +2351,96 @@
 				<Item command="18968-0x00000000-0x00000000" comment="Maß"/>
 				<Item command="1283-0x00000000-0x00000000" comment="Gruppierung aus&amp;setzen"/>
 				<Separator/>
-				<Item command="798-0x00000000-0x00000000" comment="Trimmen"/>
-				<Item command="790-0x00000000-0x00000000" comment="Spli&amp;tten"/>
+				<Item command="852-0x00000000-0x00000000" comment="Ursprungsgeschoss neu verknüpfen..."/>
 				<Item command="791-0x00000000-0x00000000" comment="An&amp;passen"/>
 				<Item command="7171-0x00000000-0x00000000" comment="&amp;Verbinden"/>
 				<Item command="7169-0x00000000-0x00000000" comment="&amp;Abrunden/Abschrägen..."/>
 				<Item command="789-0x00000000-0x00000000" comment="Grö&amp;ßenänderung"/>
 				<Item command="836-0x00000000-0x00000000" comment="Elemente mit Dach/Schale trimmen"/>
+				<Item command="1290-0x00000000-0x00000000" comment="&amp;In 2D-Elemente zerlegen..."/>
+				<Item command="806-0x00000000-0x00000000" comment="Schraffuren-Vereinigung..."/>
+				<PopupItem sticky="yes">
+					<Menu IDREF="Menu66"/>
+				</PopupItem>
+				<Item command="795-0x00000000-0x00000000" comment="Solid Element-&amp;Befehle..."/>
+				<PopupItem sticky="yes">
+					<Menu IDREF="Menu69"/>
+				</PopupItem>
 				<Separator/>
 				<Item command="2129920001-0x47732f64-0x004612f5" comment="Außenbemaßung..."/>
 				<Item command="2129920002-0x47732f64-0x004612f5" comment="Innenbemaßung..."/>
 				<Separator/>
+				<Item command="1562-0x00000000-0x00000000" comment="Eigenschaften-Manager..."/>
 				<Item command="5897-0x00000000-0x00000000" comment="&amp;Favoriten"/>
 				<Item command="5907-0x00000000-0x00000000" comment="Transparentpausenpalette"/>
 				<Item command="5909-0x00000000-0x00000000" comment="Änderungsmanager"/>
 				<Item command="5908-0x00000000-0x00000000" comment="Umbau-Palette"/>
-				<Item command="2129920001-0x47732f64-0x07b54282" comment="Element-Information"/>
-				<Item command="859-0x00000000-0x00000000" comment="Oberflächen-Katalog"/>
-				<Item command="1562-0x00000000-0x00000000" comment="Eigenschaften-Manager..."/>
 				<Separator/>
 				<Item command="1796-0x00000000-0x00000000" comment="3D-Schnitt &amp;ausführen"/>
 				<PopupItem sticky="yes">
-					<Menu IDREF="Menu132"/>
+					<Menu IDREF="Menu140"/>
 				</PopupItem>
+				<Separator/>
+				<Item command="1798-0x00000000-0x00000000" comment="&amp;Photorealistik-Einstellungen"/>
+				<Item command="1799-0x00000000-0x00000000" comment="P&amp;hotorealistische Darstellung"/>
+				<Item command="859-0x00000000-0x00000000" comment="Oberflächen-Katalog"/>
+				<PopupItem sticky="yes">
+					<Menu IDREF="Menu98"/>
+				</PopupItem>
+				<Item command="18706-0x00000000-0x00000000" comment="Zwei-Punkt-Perspektive"/>
+				<Item command="18696-0x00000000-0x00000000" comment="Senkrecht auf die angeklickte Fläche sehen"/>
+				<Separator/>
+				<Item command="1292-0x00000000-0x00000000" comment="Räume a&amp;ktualisieren..."/>
+				<Item command="2129920001-0x47732f64-0x07b54282" comment="Element-Information"/>
+				<Item command="5911-0x00000000-0x00000000" comment="Öffnungen aus Auswahl erstellen..."/>
+				<Item command="2129920001-0x47732f64-0x32521719" comment="Auswahlsets"/>
+				<Item command="2129920001-0x47732f64-0xad99a42f" comment="Grasshopper Connection..."/>
 			</ToolBar>
 		</CommandLayout>
 		<ACCommandLayout>
 			<BuiltInAddonsList>
-				<BuiltInAddon>0x47732f64-0x6096a3e6</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0xe3879c79</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x197595c3</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x117928ce</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xc094335f</BuiltInAddon>
+				<BuiltInAddon>0x2a456d4c-0x00e97dca</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x64eb59a4</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x8aa63b15</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x4ed650a5</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x6b5a8932</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x5e7c2917</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0xed4b82c5</BuiltInAddon>
+				<BuiltInAddon>0x38735147-0xc8e858ce</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0xb6d04d13</BuiltInAddon>
-				<BuiltInAddon>0x47732f52-0x3db258ad</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x2f8a9ec2</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0xd1c74938</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xad99a42f</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x6096a3e6</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xe3879c79</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x2c7024f3</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x97849b30</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x3f307734</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0xe8698f9f</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x197595c3</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xd25486a0</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x1c3d0e1a</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x4a819ae7</BuiltInAddon>
+				<BuiltInAddon>0x47732f52-0x3db258ad</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x004612f5</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x50638d0d</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x2f8a9ec2</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x8f882e3b</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x07b54282</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x7e551862</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x74913216</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x165b1bf4</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0x08427fea</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xd1c74938</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x38c147a6</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x48672018</BuiltInAddon>
 				<BuiltInAddon>0x47732f64-0x32521719</BuiltInAddon>
-				<BuiltInAddon>0x47732f64-0xd25486a0</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xc12170c7</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x53b843cb</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xa0bb4414</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xe8698f9f</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xa62a74a2</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x6eaf3ff0</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x4a819ae7</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x3f307734</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xed4b82c5</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0xa148817c</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x50638d0d</BuiltInAddon>
+				<BuiltInAddon>0x47732f64-0x08427fea</BuiltInAddon>
 			</BuiltInAddonsList>
 		</ACCommandLayout>
 	</GlobalSettings>
