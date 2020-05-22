@@ -5,7 +5,7 @@
 	version: 2019-07-05
 	Python version: 3.x (mainly because the csv module does not support Unicode in 2.x)
 
-	Convert the keyboard shortcut XML to csv so we can open it in Excel
+	Convert the keyboard shortcut XML to CSV so we can open it in Excel
 	for better viewing.
 """
 
@@ -28,7 +28,7 @@ source = ("\\").join(source)
 
 # get the XML path
 files = []
-# r=root, d=direction, f=files
+#! r=root, d=directory, f=files
 for r, d, f in os.walk(source):
 	for file in f:
 		if '.xml' in file:
