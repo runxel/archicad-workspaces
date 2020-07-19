@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" guid="0372D709-A105-46E9-A2D2-DF29FD09AA4D" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" guid="8E509BA1-40C7-44D1-9CEF-586D2A921111" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings>
 		<ShortcutContext guid="76D29F35-0E29-4DEF-ABFF-13E47B8DEF4E">
 			<CommandDescriptor command="513-0x00000000-0x00000000" comment="Neu...">
@@ -11,7 +11,7 @@
 			<CommandDescriptor command="537-0x00000000-0x00000000" comment="&amp;Projekt schließen">
 				<Shortcut character="w" modifiers="Command|Shift"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="2582-0x00000000-0x00000000" comment="Tab Projekt &amp;schließen">
+			<CommandDescriptor command="2582-0x00000000-0x00000000" comment="Tab 3D / Alle &amp;schließen">
 				<Shortcut character="w" modifiers="Command"/>
 			</CommandDescriptor>
 			<CommandDescriptor command="518-0x00000000-0x00000000" comment="&amp;Sichern">
@@ -237,7 +237,7 @@
 			<CommandDescriptor command="776-0x00000000-0x00000000" comment="Alle Elemente aktiviere&amp;n">
 				<Shortcut character="a" modifiers="Command"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="771-0x00000000-0x00000000" comment="&amp;Wiederholen Werkzeug-Einstellungen">
+			<CommandDescriptor command="771-0x00000000-0x00000000" comment="&amp;Wiederhole den letzten Befehl">
 				<Shortcut character="b" modifiers="Command"/>
 			</CommandDescriptor>
 			<CommandDescriptor command="770-0x00000000-0x00000000" comment="Wiederaus&amp;führen">

@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Profile guid="ADEA847C-F206-4F7F-8F5A-7858E89423BA" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Profile/2005/01">
-	<SchemeRef componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" componentTypeName="Extras" guid="23C5184F-DEFB-4593-A896-1B678EE453F8" name="LUX-24"/>
-	<SchemeRef componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" componentTypeName="Anwender Voreinstellungen" guid="C65896AC-27C5-4969-A9CA-1B351963B544" name="Lux-24"/>
-	<SchemeRef componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" componentTypeName="Tastaturkürzel" guid="0372D709-A105-46E9-A2D2-DF29FD09AA4D" name="Lux-24"/>
-	<SchemeRef componentType="24B978B9-B65D-4405-AF78-3990DCBEB13F" componentTypeName="Büro-Standards" guid="B395892D-E524-4C0B-B84D-0DAEF3E80D43" name="Lux-24"/>
-	<SchemeRef componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" componentTypeName="Befehle" guid="356BE30D-D781-4828-9A4B-F98B700ACDE1" name="Lux-24"/>
+<Profile guid="8569FF7F-00FF-48CD-B8BB-7A6F2B344E29" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Profile/2005/01">
+	<SchemeRef componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" componentTypeName="Extras" guid="8BD65110-D074-4D26-91BF-270B4C958C24" name="LUX-24"/>
+	<SchemeRef componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" componentTypeName="Anwender Voreinstellungen" guid="995A65C5-2AE4-4E30-8FF5-44D9D7AA78CE" name="Lux-24"/>
+	<SchemeRef componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" componentTypeName="Tastaturkürzel" guid="8E509BA1-40C7-44D1-9CEF-586D2A921111" name="Lux-24"/>
+	<SchemeRef componentType="24B978B9-B65D-4405-AF78-3990DCBEB13F" componentTypeName="Büro-Standards" guid="BA5D88D9-3951-4FBE-83AD-471949CE198F" name="Lux-24"/>
+	<SchemeRef componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" componentTypeName="Befehle" guid="86171526-7154-4D43-8F9F-723411112DAA" name="Lux-24"/>
+	<SchemeRef componentType="40C3FF18-F1CE-4430-92B2-F6631BD465D3" componentTypeName="Arbeitsbereich" guid="F60A6076-B449-4005-9D4B-062B5B5A1D39" name="Lux-24 (single display)"/>
 </Profile>

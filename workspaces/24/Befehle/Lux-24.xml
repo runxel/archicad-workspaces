@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" guid="356BE30D-D781-4828-9A4B-F98B700ACDE1" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="6FCD168F-A26C-4547-AF9D-ED9A5FC54DD7" guid="86171526-7154-4D43-8F9F-723411112DAA" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings>
 		<CommandLayout>
 			<Menu ID="Menu1" title="Zuletzt geöffnete Objekte">
@@ -129,7 +129,7 @@
 				<PopupItem>
 					<Menu ID="Menu13" iconID="1631" title="Projektnullpegel">
 						<Item command="18951-0x00000000-0x00000000" comment="Projektursprung"/>
-						<Item command="18952-0x00000000-0x00000000" comment="aktuellem Geschoss"/>
+						<Item command="18952-0x00000000-0x00000000" comment="Benutzerursprung"/>
 						<Item command="18953-0x00000000-0x00000000" comment="1. Referenzhöhe"/>
 						<Item command="18954-0x00000000-0x00000000" comment="2. Referenzhöhe"/>
 					</Menu>
@@ -714,7 +714,7 @@
 				<Menu ID="Menu66" title="&amp;Bearbeiten">
 					<Item command="769-0x00000000-0x00000000" comment="Wider&amp;rufen"/>
 					<Item command="770-0x00000000-0x00000000" comment="Wiederaus&amp;führen"/>
-					<Item command="771-0x00000000-0x00000000" comment="&amp;Wiederholen Werkzeug-Einstellungen"/>
+					<Item command="771-0x00000000-0x00000000" comment="&amp;Wiederhole den letzten Befehl"/>
 					<Separator/>
 					<Item command="772-0x00000000-0x00000000" comment="&amp;Ausschneiden"/>
 					<Item command="773-0x00000000-0x00000000" comment="&amp;Kopieren"/>
@@ -1220,7 +1220,7 @@
 					<PopupItem>
 						<Menu IDREF="Menu2"/>
 					</PopupItem>
-					<Item command="1537-0x00000000-0x00000000" comment="Grundrissma&amp;ßstab..."/>
+					<Item command="1537-0x00000000-0x00000000" comment="3D-Maßstab..."/>
 					<Item command="6407-0x00000000-0x00000000" comment="Grundriss-Schnittebene..."/>
 					<Item command="1555-0x00000000-0x00000000" comment="Strukturdarstellung..."/>
 					<PopupItem>
@@ -1282,7 +1282,7 @@
 									<Item command="9729-0x00000000-0x00000000" comment="&amp;Ursprung bestimmen"/>
 									<Item command="9730-0x00000000-0x00000000" comment="&amp;Richtung einstellen..."/>
 									<Separator/>
-									<Item command="9731-0x00000000-0x00000000" comment="Zurückstellen"/>
+									<Item command="9731-0x00000000-0x00000000" comment="Alle zurückstellen"/>
 								</Menu>
 							</PopupItem>
 							<Separator/>
@@ -1564,7 +1564,7 @@
 						</Menu>
 					</PopupItem>
 					<Separator/>
-					<Item command="2582-0x00000000-0x00000000" comment="Tab Projekt &amp;schließen"/>
+					<Item command="2582-0x00000000-0x00000000" comment="Tab 3D / Alle &amp;schließen"/>
 					<Item command="2579-0x00000000-0x00000000" comment="Alle anderen Tabs und Fenster schließen"/>
 					<Item command="2855-0x00000000-0x00000000" comment="Windows-Überblick anzeigen"/>
 					<Separator/>
@@ -2478,7 +2478,7 @@
 				<Item command="10259-0x00000000-0x00000000" comment="Verborgene Morph-Geometrie anzeigen"/>
 				<Separator/>
 				<Item command="9729-0x00000000-0x00000000" comment="&amp;Ursprung bestimmen"/>
-				<Item command="9731-0x00000000-0x00000000" comment="Zurückstellen"/>
+				<Item command="9731-0x00000000-0x00000000" comment="Alle zurückstellen"/>
 			</ToolBar>
 			<ToolBar ID="ToolBar26" title="Dokumentation Extras" toolbarid="1BF3A3A2-B1E2-41D1-BA0B-CD5549F5B34A">
 				<Item command="2129920001-0x47732f64-0x004612f5" comment="Außenbemaßung..."/>
