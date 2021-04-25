@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" guid="995A65C5-2AE4-4E30-8FF5-44D9D7AA78CE" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="D3EC122F-0A7F-4B14-94D0-0A6B7FFA66C3" guid="8B35F1E0-7A15-4408-BA72-6C51C8CCA7D9" name="Lux-24 @ BBI" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings Version="34">
 		<ImagingAndCalculation Version="3">
 			<AutoRebuild3D>1</AutoRebuild3D>
@@ -63,17 +63,17 @@
 			<UseCoordBoxShortcuts>1</UseCoordBoxShortcuts>
 			<ShowParameterTags>1</ShowParameterTags>
 			<UseCustomColors>1</UseCustomColors>
-			<ForegroundColor B="254" G="100" R="32">
+			<ForegroundColor B="123" G="191" R="79">
 			</ForegroundColor>
-			<BackgroundColor B="255" G="255" R="255">
+			<BackgroundColor B="243" G="245" R="243">
 			</BackgroundColor>
-			<FrameColor B="255" G="170" R="130">
+			<FrameColor B="100" G="145" R="79">
 			</FrameColor>
-			<Opacity>72</Opacity>
+			<Opacity>89</Opacity>
 			<UseRelativeAngle>1</UseRelativeAngle>
 			<ShowNullLevelTracker>0</ShowNullLevelTracker>
 			<AnglePointerLineRelativeness>1</AnglePointerLineRelativeness>
-			<ShowFrame>0</ShowFrame>
+			<ShowFrame>1</ShowFrame>
 			<UseSmallFonts>0</UseSmallFonts>
 			<RelativeTracker>1</RelativeTracker>
 			<DirectInput>1</DirectInput>
@@ -112,25 +112,25 @@
 			<IsAdjustDrawingFrameToViewZoomEnabled>1</IsAdjustDrawingFrameToViewZoomEnabled>
 			<IsOpenViewsInNewWindowEnabled>0</IsOpenViewsInNewWindowEnabled>
 			<IsOpenLayoutsInNewWindowEnabled>0</IsOpenLayoutsInNewWindowEnabled>
-			<IsShowPreviewInTabBarEnabled>1</IsShowPreviewInTabBarEnabled>
+			<IsShowPreviewInTabBarEnabled>0</IsShowPreviewInTabBarEnabled>
 			<RulerVisibility>0</RulerVisibility>
 			<IsOpenProjectInEmtptyACEnabled>1</IsOpenProjectInEmtptyACEnabled>
 			<IsNotificationAlertEnabled>1</IsNotificationAlertEnabled>
-			<IsUseLargeAlertsEnabled>0</IsUseLargeAlertsEnabled>
+			<IsUseLargeAlertsEnabled>1</IsUseLargeAlertsEnabled>
 			<SelectedPythonExecutorLocation/>
 			<SelectedPythonScriptFolderLocationsNumber>0</SelectedPythonScriptFolderLocationsNumber>
 		</VariousOptions>
 		<ExperimentalFeatures Version="3">
-			<IsLinkingAlongCommonViewSettingEnabled>0</IsLinkingAlongCommonViewSettingEnabled>
+			<IsLinkingAlongCommonViewSettingEnabled>1</IsLinkingAlongCommonViewSettingEnabled>
 			<IsSystemAppearanceModeEnabled>0</IsSystemAppearanceModeEnabled>
-			<IsIFCStructuralAnalysisModelSettingEnabled>0</IsIFCStructuralAnalysisModelSettingEnabled>
-			<IsPythonPaletteEnabled>0</IsPythonPaletteEnabled>
+			<IsIFCStructuralAnalysisModelSettingEnabled>1</IsIFCStructuralAnalysisModelSettingEnabled>
+			<IsPythonPaletteEnabled>1</IsPythonPaletteEnabled>
 		</ExperimentalFeatures>
 		<AdvancedOptions Version="2">
 			<NavDisplayModel>2</NavDisplayModel>
 			<HwAccelerationLevel2D>2</HwAccelerationLevel2D>
 			<PerformanceLevel>6</PerformanceLevel>
-			<AntialiasQuality>0</AntialiasQuality>
+			<AntialiasQuality>1</AntialiasQuality>
 			<AntialiasQualityOpenGL3D>1</AntialiasQualityOpenGL3D>
 			<HorizontalVerticalAntialiasDisable>1</HorizontalVerticalAntialiasDisable>
 		</AdvancedOptions>
@@ -144,7 +144,7 @@
 			</UniformColorForMasterItems>
 			<SnapMarkerColor B="0" G="0" R="255">
 			</SnapMarkerColor>
-			<SourceMarkerBoundColor B="150" G="255" R="255">
+			<SourceMarkerBoundColor B="3" G="252" R="221">
 			</SourceMarkerBoundColor>
 			<FeedbackColor B="0" G="0" R="0">
 			</FeedbackColor>

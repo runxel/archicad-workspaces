@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" guid="8BD65110-D074-4D26-91BF-270B4C958C24" name="LUX-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="AD074D1A-BFE2-48B7-B478-54652249B51D" guid="13243458-295F-4F67-93B4-F4EBBE12BE78" name="LUX-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings Version="2">
 		<InfoBoxPanels>
 			<ToolState Version="1" comment="Pfeil-Werkzeug">
@@ -98,7 +98,7 @@
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20402</UniqueId>
-					<Visible>0</Visible>
+					<Visible>1</Visible>
 					<Index>9</Index>
 				</PanelState>
 				<PanelState comment="Winkel der geneigten Wand">
@@ -206,11 +206,18 @@
 					<Visible>1</Visible>
 					<Index>14</Index>
 				</PanelState>
+				<PanelState comment="Auswirkung auf Raumflächen">
+					<DeveloperId>0</DeveloperId>
+					<LocalId>0</LocalId>
+					<UniqueId>20166</UniqueId>
+					<Visible>1</Visible>
+					<Index>19</Index>
+				</PanelState>
 				<PanelState comment="Anschlussreihenfolge">
 					<DeveloperId>0</DeveloperId>
 					<LocalId>0</LocalId>
 					<UniqueId>20172</UniqueId>
-					<Visible>0</Visible>
+					<Visible>1</Visible>
 					<Index>24</Index>
 				</PanelState>
 				<PanelState comment="Beschneiden/Textur">
@@ -226,13 +233,6 @@
 					<UniqueId>20409</UniqueId>
 					<Visible>0</Visible>
 					<Index>17</Index>
-				</PanelState>
-				<PanelState comment="Auswirkung auf Raumflächen">
-					<DeveloperId>0</DeveloperId>
-					<LocalId>0</LocalId>
-					<UniqueId>20166</UniqueId>
-					<Visible>1</Visible>
-					<Index>19</Index>
 				</PanelState>
 				<PanelState comment="Eigenschaftsobjekte">
 					<DeveloperId>0</DeveloperId>
@@ -19593,13 +19593,13 @@
 						<CommandId>17202</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17223</CommandId>
+						<CommandId>17160</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17159</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
-						<CommandId>17160</CommandId>
+						<CommandId>17223</CommandId>
 						<DevId>0</DevId>
 						<ProdId>0</ProdId>
 						<CommandId>17195</CommandId>

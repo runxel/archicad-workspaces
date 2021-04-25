@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Scheme componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" guid="FF7D02D7-3C97-44B7-B7A3-FBBAE52B748E" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
+<Scheme componentType="F078DB9E-D588-405D-9693-06F9D70B27CF" guid="81DF1F4C-FEE3-4517-9571-5E9E600358A6" name="Lux-24" xmlns="http://www.graphisoft.com/Development/WorkEnvironment/Scheme/2018/01">
 	<GlobalSettings>
 		<ShortcutContext guid="76D29F35-0E29-4DEF-ABFF-13E47B8DEF4E">
 			<CommandDescriptor command="513-0x00000000-0x00000000" comment="Neu...">
@@ -11,7 +11,7 @@
 			<CommandDescriptor command="537-0x00000000-0x00000000" comment="&amp;Projekt schließen">
 				<Shortcut character="w" modifiers="Command|Shift"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="2582-0x00000000-0x00000000" comment="Tab Import &amp;schließen">
+			<CommandDescriptor command="2582-0x00000000-0x00000000" comment="Tab A3 Quer &amp;schließen">
 				<Shortcut character="w" modifiers="Command"/>
 			</CommandDescriptor>
 			<CommandDescriptor command="518-0x00000000-0x00000000" comment="&amp;Sichern">
@@ -225,16 +225,16 @@
 			<CommandDescriptor command="776-0x00000000-0x00000000" comment="Alle Elemente aktiviere&amp;n">
 				<Shortcut character="a" modifiers="Command"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="771-0x00000000-0x00000000" comment="&amp;Wiederholen Verschieben">
+			<CommandDescriptor command="771-0x00000000-0x00000000" comment="&amp;Wiederhole den letzten Befehl">
 				<Shortcut character="b" modifiers="Command"/>
 			</CommandDescriptor>
 			<CommandDescriptor command="770-0x00000000-0x00000000" comment="Wiederaus&amp;führen">
 				<Shortcut character="z" modifiers="Command|Shift"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="769-0x00000000-0x00000000" comment="&amp;Rückgängig Verschieben /+ Import">
+			<CommandDescriptor command="769-0x00000000-0x00000000" comment="Wider&amp;rufen">
 				<Shortcut character="z" modifiers="Command"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="6657-0x00000000-0x00000000" comment="&amp;Ebenen (Modelldarstellung)...">
+			<CommandDescriptor command="6657-0x00000000-0x00000000" comment="&amp;Ebenen (Layoutbuch)...">
 				<Shortcut character="l" modifiers="Command"/>
 			</CommandDescriptor>
 			<CommandDescriptor command="797-0x00000000-0x00000000" comment="Werkzeug-Einstellungen">
@@ -594,7 +594,7 @@
 			<CommandDescriptor command="16971-0x00000000-0x00000000" comment="Fanghilfen und -punkte">
 				<Shortcut character="f" modifiers="Command"/>
 			</CommandDescriptor>
-			<CommandDescriptor command="6657-0x00000000-0x00000000" comment="&amp;Ebenen (Modelldarstellung)...">
+			<CommandDescriptor command="6657-0x00000000-0x00000000" comment="&amp;Ebenen (Layoutbuch)...">
 				<Shortcut character="e" modifiers=""/>
 			</CommandDescriptor>
 			<CommandDescriptor command="6659-0x00000000-0x00000000" comment="&amp;Alle Ebenen sichtbar">
