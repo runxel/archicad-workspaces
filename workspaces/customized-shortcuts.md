@@ -63,8 +63,8 @@ Folgende Tastaturkürzel erachte ich als wichtig, wurden aber aus der Standardar
 
 Befehl                                           |     Tastaturkürzel OOTB
 -------------------------------------------------|------------------------
-Pfeil-Werkzeug/Vorheriges Werkzeug UmschOpter    |                       ^
-Schalter zum nächsten Element der Pet-Palette    |                       .
+Pfeil-Werkzeug/Vorheriges Werkzeug Umschalter    |                       ^
+Weiter zum nächsten Element der Pet-Palette      |                       .
 Suchen & Aktivieren                              |         Cmd + Umsch + A
 Gruppieren                                       |                 Cmd + G
 Gruppe auflösen                                  |         Cmd + Umsch + G
