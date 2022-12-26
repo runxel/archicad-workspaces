@@ -1,15 +1,16 @@
 # Tastaturkürzel
 
-Das sind Tastenkürzel, die ich angepasst habe (Standardwerte wurden ausgelassen):
+Cmd = Strg  
+Opt = Alt  
 
 Befehl                                           |          Tastaturkürzel
 -------------------------------------------------|------------------------
 Hotlink platzieren                               |               Umsch + H
 Hotlink-Modul-Manager                            |               Umsch + A
-Externe Zeichnung platzieren                     |                 Alt + I
+Externe Zeichnung platzieren                     |                 Opt + I
 Bibliothekenmanager                              |                       B
-Bibliotheken neu laden                           |                 Alt + B
-Projekt-Info                                     |        Strg + Umsch + I
+Bibliotheken neu laden                           |                 Opt + B
+Projekt-Info                                     |         Cmd + Umsch + I
 In den Vordergrund                               |                       1
 Nach vorn                                        |                       2
 Nach hinten                                      |                       3
@@ -26,27 +27,46 @@ Größenänderung                                   |                       H
 Splitten                                         |                       G
 Anpassen                                         |                       F
 Verbinden                                        |               Umsch + V
-Vereinigen                                       |        Strg + Umsch + V
-Schraffuren-Vereinigung                          |         Alt + Umsch + S
+Vereinigen                                       |         Cmd + Umsch + V
+Schraffuren-Vereinigung                          |         Opt + Umsch + S
 Werkzeug-Einstellungen                           |                       T
 Aktivierte Elemente ändern                       |               Umsch + T
-Echte Linienstärke                               |        Strg + Umsch + Y
+Echte Linienstärke                               |         Cmd + Umsch + Y
 Neu aufbauen                                     |                       N
-Neu aufbauen & regenerieren                      |                Strg + R
+Neu aufbauen & regenerieren                      |                 Cmd + R
 Fanghilfen                                       |               Umsch + F
 Darstellung der Bearbeitungsebene                |               Umsch + B
-Arbeitsumgebung                                  |                Strg + ,
-Auswahl- und Elementinformation                  |                 Alt + E
-Fanghilfen und Hilfslinien                       |                Strg + F
+Arbeitsumgebung                                  |                 Cmd + ,
+Fanghilfen und Hilfslinien                       |                 Cmd + F
 Ebenen                                           |                       E
-Alle Ebenen sichtbar                             |         Alt + Umsch + E
+Alle Ebenen sichtbar                             |         Opt + Umsch + E
 Ursprünglichen Ausschnitt öffnen                 |                       Ü
-Zeichnung(en) aktualisieren                      |                 Alt + A
+Zeichnung(en) aktualisieren                      |                 Opt + A
 Organisator anzeigen/verbergen                   |                       O
-Favoriten ein-/ausblenden                        |        Strg + Umsch + F
+Favoriten ein-/ausblenden                        |         Cmd + Umsch + F
 Profil-Manager anzeigen/ausblenden               |               Umsch + M
-Fangpunktvarianten                               |                 Alt + C
+Fangpunktvarianten                               |                 Opt + C
 Parallel/Lotrecht                                |                       P
-Pfeil-Werkzeug/Vorheriges Werkzeug Umschalter    |                       ^
 Maß                                              |                       Q
 Wendestatus ändern                               |               Umsch + C
+Etikett	                                         |               Umsch + E
+Bemaßung                                         |               Umsch + D
+Ursprünglichen Ausschnitt öffnen                 |                       Ü
+Zeichnung verknüpfen mit                         |               Umsch + Ü
+UmschOpter Geometriemethoden                     |               Umsch + G
+Ausgewählte Ebene unsichtbar                     |                 Opt + 1
+Ok                                               |                       U
+Objekt Öffnen                                    |         Cmd + Umsch + O
+Neues Objekt                                     |         Opt + Umsch + O
+
+Folgende Tastaturkürzel erachte ich als wichtig, wurden aber aus der Standardarbeitsumgebung der deutschen Version direkt übernommen:
+
+Befehl                                           |     Tastaturkürzel OOTB
+-------------------------------------------------|------------------------
+Pfeil-Werkzeug/Vorheriges Werkzeug UmschOpter    |                       ^
+Schalter zum nächsten Element der Pet-Palette    |                       .
+Suchen & Aktivieren                              |         Cmd + Umsch + A
+Gruppieren                                       |                 Cmd + G
+Gruppe auflösen                                  |         Cmd + Umsch + G
+Gruppierung aussetzen                            |                 Opt + G
+Im Grundriss auswählen                           |          Cmd + Ctrl + 2
