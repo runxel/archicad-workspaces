@@ -34,6 +34,7 @@ Aktivierte Elemente ändern                       |               Umsch + T
 Echte Linienstärke                               |         Cmd + Umsch + Y
 Neu aufbauen                                     |                       N
 Neu aufbauen & regenerieren                      |                 Cmd + R
+Fangpunktbeschränkungen                          |                       A
 Fanghilfen                                       |               Umsch + F
 Darstellung der Bearbeitungsebene                |               Umsch + B
 Arbeitsumgebung                                  |                 Cmd + ,
